@@ -5,15 +5,15 @@
 # Site
 title: Xilej'Blog
 subtitle:
-description:
+description: Xilej'的博客
 keywords:
 author: xilej
 language:
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://hexo-ovo.vercel.app
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
