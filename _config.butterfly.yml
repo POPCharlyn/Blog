@@ -35,7 +35,6 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-
   # fab fa-github: https://github.com/xxxxx || Github
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
@@ -45,7 +44,7 @@ social:
 
 # Algolia search
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 6
 
@@ -154,7 +153,7 @@ post_meta:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: true
+  enable: false
   post_wordcount: true
   min2read: true
   total_wordcount: true
