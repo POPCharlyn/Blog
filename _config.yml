@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Xilej'Blog
+title: xilej'Blog
 subtitle:
-description: Xilej'的博客
+description: xilej'的博客
 keywords:
 author: xilej
-language:
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
