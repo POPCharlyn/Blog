@@ -311,7 +311,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://waline-test-onece.vercel.app
+  serverURL: https://waline-test-onece.vercel.app/
   bg: white
   pageview: false
   option:
@@ -399,7 +399,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2022
   custom_text:
   copyright: true # Copyright of theme and framework
 
