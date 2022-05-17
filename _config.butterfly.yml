@@ -35,6 +35,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
+fab fa-github: https://github.com/xilej
   # fab fa-github: https://github.com/xxxxx || Github
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
@@ -80,7 +81,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: https://ik.imagekit.io/nicexl/tx.jpg
   effect: false
 
 # Disable all banner image
