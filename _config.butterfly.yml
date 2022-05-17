@@ -246,7 +246,7 @@ addThis:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,weibo,qq
 
 # AddToAny
 # https://www.addtoany.com/
@@ -312,7 +312,7 @@ valine:
 # https://waline.js.org/
 waline:
   serverURL: https://waline-test-onece.vercel.app/
-  bg: white
+  bg: 
   pageview: false
   option:
 
@@ -400,7 +400,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text:
+  custom_text:1
   copyright: true # Copyright of theme and framework
 
 # Analysis
