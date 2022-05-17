@@ -400,7 +400,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text:1
+  custom_text:
   copyright: true # Copyright of theme and framework
 
 # Analysis
