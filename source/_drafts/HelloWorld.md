@@ -1,6 +1,5 @@
 ---
 title: HelloWorld
-author:
 tags: 1
 categories: 01
 date: 2022/5/20下午9:08:57
