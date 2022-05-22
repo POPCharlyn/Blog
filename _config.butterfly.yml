@@ -822,6 +822,8 @@ css_prefix: true
 inject:
   head:
       - <link rel="stylesheet" href="/css/rightmenu.css">
+      - <script async data-pjax src="/js/rightmenu.js"></script>
+
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
