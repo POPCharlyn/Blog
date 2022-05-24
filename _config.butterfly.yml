@@ -901,7 +901,7 @@ instantpage: https://cdnjs.loli.net/ajax/libs/instant.page/5.1.0/instantpage.min
 # #   snackbar: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
 
 # #   # # effect
- activate_power_mode: https://npm.elemecdn.com/butterfly-extsrc@1.1.0/dist/activate-power-mode.min.js
+activate_power_mode: https://npm.elemecdn.com/butterfly-extsrc@1.1.0/dist/activate-power-mode.min.js
 fireworks: https://npm.elemecdn.com/butterfly-extsrc@1.1.0/dist/fireworks.min.js
 click_heart: https://npm.elemecdn.com/butterfly-extsrc@1.1.0/dist/click-heart.min.jss
 ClickShowText: https://npm.elemecdn.com/butterfly-extsrc@1.1.0/dist/click-show-text.min.js
