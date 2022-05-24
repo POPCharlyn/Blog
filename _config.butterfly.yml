@@ -849,7 +849,7 @@ CDN:
 # #   # main:
 # #   # utils:
 
- pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
+pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
 
   # comments
 # #  --------- gitalk: https://npm.elemecdn.com/gitalk@1.7.2/dist/gitalk.min.js
