@@ -851,7 +851,7 @@ CDN:
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
-    # pjax: https://npm.elemecdn.com/pjax/pjax.min.js
+     pjax: https://npm.elemecdn.com/pjax/pjax.min.js
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
