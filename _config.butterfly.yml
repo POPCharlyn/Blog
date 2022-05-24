@@ -861,8 +861,8 @@ CDN:
     # disqusjs:
     # disqusjs_css:
     # twikoo:
-    # waline_js: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js
-    # waline_css:
+     waline_js: https://unpkg.com/@waline/client@v2/dist/waline.js
+     waline_css: https://unpkg.com/@waline/client@v2/dist/waline.css
     # sharejs:
     # sharejs_css:
     # mathjax:
