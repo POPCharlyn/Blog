@@ -887,12 +887,12 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-     fontawesomeV6: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+     fontawesomeV6: https://use.fontawesome.com/releases/v6/css/all.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
+    # aplayer_css: https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css
+    # aplayer_js: https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.js
+    # meting_js: https://npm.elemecdn.com/meting@1.2.0/dist/Meting.min.js
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader
