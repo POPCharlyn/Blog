@@ -6,6 +6,6 @@ filter.register('before_generate', () => {
     const { asset } = hexo.theme.config;
     for (const name in asset) {
         asset[name] = asset[name]
-            .replace('//unpkg.com/', '//npm.elemecdn.com/');
+            .replace('//cdn.tianli0.top//');
     }
 }, 11);
