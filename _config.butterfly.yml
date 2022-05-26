@@ -823,8 +823,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    #  - <link rel="stylesheet" href="/css/rightmenu.css">
-    #  - <link rel="stylesheet" href="/js/rightmenu.js">
+      - <link rel="stylesheet" href="/css/rightmenu.css">
+      - <link rel="stylesheet" href="/js/rightmenu.js">
 
     
 
@@ -862,8 +862,8 @@ CDN:
     # disqusjs:
     # disqusjs_css:
     # twikoo:
-    # waline_js: https://unpkg.com/@waline/client@v2/dist/waline.js
-    # waline_css: https://unpkg.com/@waline/client@v2/dist/waline.css
+     waline_js: https://unpkg.com/@waline/client@v2/dist/waline.js
+     waline_css: https://unpkg.com/@waline/client@v2/dist/waline.css
     # sharejs: https://unpkg.com/social-share.js/dist/js/social-share.min.js
     # sharejs_css: https://unpkg.com/social-share.js/dist/css/share.min.css
     # mathjax:
@@ -887,7 +887,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6: https://use.fontawesome.com/releases/v6.0.0/css/all.css
+     fontawesomeV6: https://use.fontawesome.com/releases/v6.0.0/css/all.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css: https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css
