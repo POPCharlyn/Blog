@@ -825,6 +825,8 @@ inject:
   head:
       - <link rel="stylesheet" href="/css/rightmenu.css">
       - <script async data-pjax src="/js/rightmenu.js"></script>
+        - <link rel="stylesheet" href="/css/jdt.css">
+        - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>p
 
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
