@@ -32,7 +32,7 @@ copy:
 #   icon: link || the description
 social:
    fab fa-github: https://github.com/xilej || Github
-   fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+   fas fa-envelope: mailto:nicexl@hotmail.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
