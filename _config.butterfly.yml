@@ -846,7 +846,7 @@ CDN:
   third_party_provider: local
   option:
     # main_css:
-    # jquery: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
+     jquery: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
     # main:
     # utils:
     # translate:
