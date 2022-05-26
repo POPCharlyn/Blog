@@ -825,8 +825,8 @@ inject:
   head:
       - <link rel="stylesheet" href="/css/rightmenu.css">
       - <link rel="stylesheet" href="/js/rightmenu.js">
-        - <link rel="stylesheet" href="/css/jdt.css">
-        - 
+        
+        
 
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
