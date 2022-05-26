@@ -823,8 +823,6 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-      - <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/zhheo/JS-Heo@main/mainColor/heoMainColor.css">
-      - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/zhheo/JS-Heo@main/rightmenu/rightmenu.css">
       - <link rel="stylesheet" href="/css/rightmenu.css">
       - <script async data-pjax src="/js/rightmenu.js"></script>
 
