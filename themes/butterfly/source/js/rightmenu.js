@@ -58,7 +58,8 @@ kk.switchTheme=function(load=false){
         themesrc += window.location.origin+'/css/dorakika/'+themes[vTheme];
     }
     //css引入时link标签添加属性tag="theme"
-    $(document.head).find('[tag="theme"]')[0].href = themesrc;
+    let themeLink = $(document).find('[tag="theme"]')[0];
+    if(themeLink)themeLink.href = themesrc;
 };
 
 //复制选中文字
@@ -99,5 +100,5 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
     };
 
     window.addEventListener('click',function(){kk.showRightMenu(false);});
-    window.addEventListener('load',function(){kk.switchTheme(true);});
+//     window.addEventListener('load',function(){kk.switchTheme(true);});
 }
