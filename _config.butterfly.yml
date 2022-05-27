@@ -824,6 +824,7 @@ css_prefix: true
 inject:
   head:
       - <link rel="stylesheet" href="/js/rightmenu.js">
+       - <link rel="stylesheet" href="/css/rightmenu.css">
 
     
 
