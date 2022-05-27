@@ -3,7 +3,7 @@
 # --------------------------------------
 
 menu:
-   首页: / || fas fa-home
+   
   
 
 # Code Blocks (代碼相關)
@@ -877,7 +877,7 @@ CDN:
     # typed:
     # pangu:
     # fancybox_css_v4:
-    # fancybox_v4: https://cdn.bootcss.com/font-awesome/6.0.0/css/all.css
+    # fancybox_v4: 
     # medium_zoom:
     # snackbar_css:
     # snackbar:
@@ -885,7 +885,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6:
+     fontawesomeV6: https://cdn.bootcss.com/font-awesome/6.0.0/css/all.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
