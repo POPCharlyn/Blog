@@ -4,9 +4,9 @@
 
 menu: 
   首页: / || fas fa-home
-  归档: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  友情链接: /link/ || fas fa-link
+  #归档: /tags/ || fas fa-tags
+  #分类: /categories/ || fas fa-folder-open
+  #友情链接: /link/ || fas fa-link
   
 
 # Code Blocks (代碼相關)
