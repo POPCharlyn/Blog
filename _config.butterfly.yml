@@ -824,9 +824,9 @@ css_prefix: true
 inject:
   head:
     #  - <link rel="stylesheet" href="/js/rightmenu.js">
-       - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/rightmenu/rightmenu.css">
-    #  - <link rel="stylesheet" href="/css/rightmenu.css">
-       - <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/mainColor/heoMainColor.css">
+     #  - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/rightmenu/rightmenu.css">
+     #  - <link rel="stylesheet" href="/css/rightmenu.css">
+    #   - <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/mainColor/heoMainColor.css">
 
     
 
