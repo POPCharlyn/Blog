@@ -830,7 +830,7 @@ inject:
 
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-     - <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/zhheo/JS-Heo@main/mainColor/heoMainColor.css">
+    # - <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/zhheo/JS-Heo@main/mainColor/heoMainColor.css">
     # - <script src="xxxx"></script>
 
 # CDN
