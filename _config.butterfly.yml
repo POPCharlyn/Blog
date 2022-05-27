@@ -830,7 +830,7 @@ inject:
 
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-     - <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+     - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <script async data-pjax src="https://gcore.jsdelivr.net/gh/zhheo/JS-Heo@main/rightmenu/rightmenu.js"></script>
     # - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
     # - <script src="xxx"></script>
@@ -849,7 +849,7 @@ CDN:
   third_party_provider: local
   option:
     # main_css:
-     jquery: https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js
+    # jquery: https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js
     # main:
     # utils:
     # translate:
