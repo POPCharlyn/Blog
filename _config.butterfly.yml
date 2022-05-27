@@ -3,8 +3,15 @@
 # --------------------------------------
 
 menu:
-   
-  
+  # Home: / || fas fa-home
+  # Archives: /archives/ || fas fa-archive
+  # Tags: /tags/ || fas fa-tags
+  # Categories: /categories/ || fas fa-folder-open
+  # List||fas fa-list:
+  #   Music: /music/ || fas fa-music
+  #   Movie: /movies/ || fas fa-video
+  # Link: /link/ || fas fa-link
+  # About: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -252,7 +259,7 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus
   use: # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -345,13 +352,6 @@ giscus:
   theme:
     light: light
     dark: dark
-  option:
-
-# Remark42
-# https://remark42.com/docs/configuration/frontend/
-remark42:
-  host: # Your Host URL
-  siteId: # Your Site ID
   option:
 
 # Chat Services
@@ -836,13 +836,13 @@ inject:
 # 非必要請不要修改
 CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
-  # option: local/jsdelivr/unpkg
-  # Dev version cannot choose jsdelivr/unpkg (dev版的主題不能設置為 jsdelivr/unpkg)
+  # option: local
+  # Dev version cannot choose jsdelivr (dev版的主題不能設置為 jsdelivr)
   internal_provider: local
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
-  # option: local/jsdelivr/unpkg
+  # option: local/jsdelivr
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: jsdelivr
+  third_party_provider: local
   option:
     # main_css:
     # main:
@@ -877,7 +877,7 @@ CDN:
     # typed:
     # pangu:
     # fancybox_css_v4:
-    # fancybox_v4: 
+    # fancybox_v4:
     # medium_zoom:
     # snackbar_css:
     # snackbar:
