@@ -1,24 +1,33 @@
 #rightMenu
-	.rightMenu-group.rightMenu-small
-		a.rightMenu-item(href="javascript:window.history.back();")
-			i.iconfont.icon-back
-		a.rightMenu-item(href="javascript:window.history.forward();")
-			i.iconfont.icon-enter
-		a.rightMenu-item(href="javascript:window.location.reload();")
-			i.iconfont.icon-chexiao
-		a.rightMenu-item(href="javascript:kk.scrollToTop();")
-			i.iconfont.icon-top
-	.rightMenu-group.rightMenu-line.hide#menu-text
-		a.rightMenu-item(href="javascript:kk.copySelect();")
-			i.iconfont.icon-copy
-			span='复制'
-	.rightMenu-group.rightMenu-line
-		a.rightMenu-item(href="javascript:kk.switchDarkMode();")
-			i.iconfont.icon-DarkTheme
-			span='昼夜切换'
-		a.rightMenu-item(href="javascript:kk.switchReadMode();")
-			i.iconfont.icon-read
-			span='阅读模式'
-		a.rightMenu-item(href="javascript:kk.switchTheme();")
-			i.iconfont.icon-theme
-			span='主题切换'
+    .rightMenu-group.rightMenu-small
+        .rightMenu-item#menu-backward
+            i.fa-solid.fa-arrow-left
+        a.rightMenu-item#menu-radompage(href='https://icodeq.com/')
+            i.fa-solid.fa-house
+        a.rightMenu-item#menu-radompage(href='https://dream-plan.cn/')
+            i.fa-solid.fa-school
+        .rightMenu-item#menu-forward
+            i.fa-solid.fa-arrow-right
+    .rightMenu-group.rightMenu-line
+        a.rightMenu-item#menu-radompage(href='https://music.icodeq.com/')
+            i.fa-solid.fa-mp3-player
+            span='YesPlayMusic'
+        a.rightMenu-item#menu-radompage(href='https://dream-plan.cn/')
+            i.fa-solid.fa-school
+            span='追梦计划'
+        a.rightMenu-item#menu-radompage(href='https://chat.icodeq.com/room/@icodeq')
+            i.fa-solid.fa-comment-dots
+            span='Chat Room'
+        a.rightMenu-item#menu-radompage(href='https://pic.icodeq.com/')
+            i.fa-solid.fa-image
+            span='Pic Tools'
+        a.rightMenu-item#menu-radompage(href='https://busuanzi.icodeq.com/')
+            i.fa-solid.fa-calculator
+            span='自建不蒜子'
+        a.rightMenu-item#menu-radompage(href='https://ncm.icodeq.com/')
+            i.fa-solid.fa-music
+            span='NCM API'
+        a.rightMenu-item#menu-radompage(href='https://zkeq.xyz/')
+            i.fa-solid.fa-moon
+            span='追星计划'
+#rightmenu-mask(onclick='RemoveRightMenu()')
