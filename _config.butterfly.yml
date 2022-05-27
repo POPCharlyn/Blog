@@ -830,12 +830,14 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+     - <link rel="stylesheet" href="css/heoMainColor.css">
+     - <link rel="stylesheet" href="css/rightmenu.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-     - <script src="css/heoMainColor.css"></script>
+    # - <script src="css/heoMainColor.css"></script>
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <script src="js/rightmenu.js"></script>
-     - <script src="css/rightmenu.css"></script>
+    # - <script src="css/rightmenu.css"></script>
     # - <script src="xxxx"></script>
 
 # CDN
