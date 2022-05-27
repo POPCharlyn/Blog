@@ -832,6 +832,10 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+     <script src="css/heoMainColor.css"></script>
+     - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
+     - <script src="js/rightmenu.js"></script>
+     - <script src="css/rightmenu.css"></script>
     # - <script src="xxxx"></script>
 
 # CDN
