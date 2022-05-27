@@ -891,7 +891,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-     fontawesomeV6: https://use.fontawesome.com/releases/v6.0.0/css/all.css
+     fontawesomeV6: https://use.fontawesome.com/releases/v4.1.0/css/all.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css: https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css
