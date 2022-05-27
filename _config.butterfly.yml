@@ -46,8 +46,8 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
-  preload: true
+  enable: false
+  preload: false
   CDN:
 
 # Math (數學)
@@ -894,7 +894,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6:
+     fontawesomeV6: https://use.fontawesome.com/releases/v6.0.0/css/all.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
