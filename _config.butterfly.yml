@@ -830,7 +830,7 @@ inject:
 
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-     - <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"></script>
+    # - <script src="xxx"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
