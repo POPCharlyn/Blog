@@ -849,7 +849,7 @@ CDN:
   third_party_provider: local
   option:
     # main_css:
-     jquery: https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js
+    # jquery: https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js
     # main:
     # utils:
     # translate:
