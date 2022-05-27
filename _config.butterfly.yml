@@ -823,13 +823,15 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-      - <link rel="stylesheet" href="/js/rightmenu.js">
+    #  - <link rel="stylesheet" href="/js/rightmenu.js">
        - <link rel="stylesheet" href="/css/rightmenu.css">
 
     
 
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+     <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+     <script async data-pjax src="https://gcore.jsdelivr.net/gh/zhheo/JS-Heo@main/rightmenu/rightmenu.js"></script>
     # - <script src="xxx"></script>
 
 # CDN
