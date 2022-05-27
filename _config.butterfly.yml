@@ -3,7 +3,7 @@
 # --------------------------------------
 
 menu:
-   主页: / || fas fa-home
+  主页: / || fas fa-home
   归档: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
@@ -832,7 +832,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-     <script src="css/heoMainColor.css"></script>
+     - <script src="css/heoMainColor.css"></script>
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <script src="js/rightmenu.js"></script>
      - <script src="css/rightmenu.css"></script>
