@@ -825,13 +825,14 @@ inject:
   head:
     #  - <link rel="stylesheet" href="/js/rightmenu.js">
        - <link rel="stylesheet" href="/css/rightmenu.css">
+       - <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/mainColor/heoMainColor.css">
 
     
 
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
-     - <script async data-pjax src="https://gcore.jsdelivr.net/gh/zhheo/JS-Heo@main/rightmenu/rightmenu.js"></script>
+     - <script async data-pjax src="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/rightmenu/rightmenu.js"></script>
     # - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
     # - <script src="xxx"></script>
 
