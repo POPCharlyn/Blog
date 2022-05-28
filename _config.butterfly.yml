@@ -12,7 +12,7 @@ menu:
 # Code Blocks (代碼相關)
 # -----------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: darker #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -674,8 +674,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2022/5/20 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -830,8 +830,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-     - <link rel="stylesheet" href="css/gdt.css">
-     - <link rel="stylesheet" href="css/footjb.css">
+    # - <link rel="stylesheet" href="css/gdt.css">
+    # - <link rel="stylesheet" href="css/footjb.css">
      - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="css/heoMainColor.css">
      - <link rel="stylesheet" href="css/rightmenu.css">
