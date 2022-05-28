@@ -1,7 +1,11 @@
-# Dependencies
-/node_modules
-/.idea
-/public
-/node_modules
+.DS_Store
+Thumbs.db
 db.json
-package-lock.json
+*.log
+node_modules/
+public
+.deploy*/
+.deploy_git*/
+.idea
+themes/butterfly/.git
+file/
