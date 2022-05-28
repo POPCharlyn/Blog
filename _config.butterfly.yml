@@ -833,6 +833,8 @@ inject:
      - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="css/heoMainColor.css">
      - <link rel="stylesheet" href="css/rightmenu.css">
+     - <link rel="stylesheet" href="css/footjb.css"
+     - <link rel="stylesheet" href="css/gdt.css"
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="css/heoMainColor.css"></script>
