@@ -2,7 +2,7 @@
 title: butterfly替换jsdelivr cdn链接教程
 date: 2022-05-28 20:21:46
 categories: cdn
-cover: https://ik.imagekit.io/nicexl/text/86bbb6f9c0432695b85ac84b8cef8e24_edit_34429706274886_0VG-_qWcm.png
+cover: https://ik.imagekit.io/nicexl/text/2785d5d234ba98d6a202e99f6bdcac7a_prpvld10x.jpeg
 tags: 教程
 ---
 最近jsdelivr凉了，国内不少博客都出现了无法访问的问题。下面介绍一些jsdelivr的替换链接。
