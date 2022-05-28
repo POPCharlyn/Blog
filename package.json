@@ -34,5 +34,6 @@
     "hexo-wordcount": "^6.0.1",
     "lineno": "^0.1.0",
     "hexo-butterfly-extjs": "^1.1.9"
+    "hexo-wordcount": "^6.0.1"
   }
 }
