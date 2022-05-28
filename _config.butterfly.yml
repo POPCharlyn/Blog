@@ -76,7 +76,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://ik.imagekit.io/nicexl/tx.jpg
+  img: https://ik.imagekit.io/nicexl/218a499ce0a3416cfa70acd0041ed7bc_4vDfZMwDF.jpeg
   effect: false
 
 # Disable all banner image
@@ -256,7 +256,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
-  use: # Valine,Disqus
+  use: Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -307,8 +307,8 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
-  bg: # waline background
+  serverURL: https://waline-test-onece.vercel.app/
+  bg: 
   pageview: false
   option:
 
@@ -632,9 +632,9 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/xilej
   card_announcement:
-    enable: true
+    enable: false
     content: This is my Blog
   card_recent_post:
     enable: true
@@ -869,8 +869,8 @@ CDN:
     # disqusjs:
     # disqusjs_css:
     # twikoo:
-    # waline_js:
-    # waline_css:
+    # waline_js: https://unpkg.com/@waline/client@v2/dist/waline.js
+    # waline_css: https://unpkg.com/@waline/client@v2/dist/waline.css
     # sharejs:
     # sharejs_css:
     # mathjax:
