@@ -9,4 +9,6 @@ public/
 .idea
 themes/butterfly/.git
 file/
+.env
+.env.build
 .vercel
