@@ -599,8 +599,8 @@ blog_title_font:
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
   enable: true
-  icon: # the unicode value of Font Awesome icon, such as '\3423'
-  icon-top:
+  icon: '\f197' # the unicode value of Font Awesome icon, such as '\3423'
+  icon-top: -10px
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
@@ -610,7 +610,7 @@ subtitle:
   # loop (循環打字)
   loop: true
   # source 調用第三方服務
-  # source: false 關閉調用
+  source: 1 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
@@ -791,8 +791,8 @@ aplayerInject:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
-  position: bottom-left
+  enable: true
+  position: bottom-right
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
