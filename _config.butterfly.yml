@@ -830,13 +830,13 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="css/gdt.css">
-    # - <link rel="stylesheet" href="css/footjb.css">
+     - <link rel="stylesheet" href="/css/gdt.css">
+     - <link rel="stylesheet" href="/css/footjb.css">
      - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/scroll.css">
      - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/foot-jb.css">
      - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
-     - <link rel="stylesheet" href="css/heoMainColor.css">
-     - <link rel="stylesheet" href="css/rightmenu.css">
+     - <link rel="stylesheet" href="/css/heoMainColor.css">
+     - <link rel="stylesheet" href="/css/rightmenu.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="css/heoMainColor.css"></script>
@@ -844,7 +844,7 @@ inject:
     # - <script src="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/rightmenu/rightmenu.js"></script>
      - <script src="https://npm.elemecdn.com/js-heo@1.0.11/privacy/privacy.js"></script>
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
-     - <script src="js/rightmenu.js"></script>
+     - <script src="/js/rightmenu.js"></script>
     # - <script src="css/rightmenu.css"></script>
     # - <script src="xxxx"></script>
 
