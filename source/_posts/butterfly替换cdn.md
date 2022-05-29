@@ -7,25 +7,24 @@ tags: cdn
 ---
 最近jsdelivr凉了，国内不少博客都出现了无法访问的问题。下面介绍一些jsdelivr的替换链接。
 
-#替换方式#
+#替换方式
 
 ```mermaid
 themes/butterfly/_config.yml
 ```
 
-#链接#
+#链接
 
-勉强能用的jsdelivr链接
+目前能用的jsdelivr链接
 
 ```mermaid
 gcore.jsdelivr.net
 fastly.jsdelivr.net
 ```
 
-#npm#
+#npm
 
 ```
-
 https://unpkg.com/
 事例:https://unpkg.com/@waline/client@v2/dist/waline.js
 记得后面unpkg.com/后不带npm/
