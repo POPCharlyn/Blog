@@ -836,7 +836,7 @@ inject:
      - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/foot-jb.css">
      - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="css/heoMainColor.css">
-     - <link rel="stylesheet" href="css/rightmenu.css">
+     - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/rightmenu/rightmenu.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="css/heoMainColor.css"></script>
