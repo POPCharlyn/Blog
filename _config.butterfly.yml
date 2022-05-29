@@ -841,7 +841,7 @@ inject:
   bottom:
     # - <script src="css/heoMainColor.css"></script>
      - <script src="https://gcore.jsdelivr.net/gh/zhheo/JS-Heo@main/privacy/privacy.js"></script>
-     - <script src="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/foot-jb.css"></script>
+     - <script src="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/rightmenu/rightmenu.js"></script>
      - <script src="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/scroll.css"></script>
      - <script src="https://npm.elemecdn.com/js-heo@1.0.11/privacy/privacy.js"></script>
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
