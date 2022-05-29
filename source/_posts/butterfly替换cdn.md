@@ -7,24 +7,24 @@ tags: cdn
 ---
 最近jsdelivr凉了，国内不少博客都出现了无法访问的问题。下面介绍一些jsdelivr的替换链接。
 
-#替换方式
+####替换方式
 
-```mermaid
+```
 themes/butterfly/_config.yml
 ```
 新版butterfly cdn配置页面，在_config.yml底部
 
-![]("https://p.zhheo.com/9oOR5i25990581652933939374.png!blogimg")
-#链接
+![]("https://ik.imagekit.io/nicexl/text/57822202270702.jpg")
+链接
 
 目前能用的jsdelivr链接
 
-```mermaid
+```
 gcore.jsdelivr.net
 fastly.jsdelivr.net
 ```
 
-#npm
+####npm
 
 ```npm
 https://npm.elemecdn.com
@@ -32,3 +32,23 @@ https://unpkg.com/
 事例:https://unpkg.com/@waline/client@v2/dist/waline.js
 记得后面unpkg.com/后不带npm/
 ```
+我这里只列出我在用的cdn，我没有用到的cdn可以在评论中留言，有时间我会补充。
+####jquery
+```
+https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js
+```
+####pjax
+```
+https://npm.elemecdn.com/pjax/pjax.min.js
+```
+####waline
+```
+https://unpkg.com/@waline/client@v2/dist/waline.js
+https://unpkg.com/@waline/client@v2/dist/waline.css
+```
+####fontawesome
+```
+https://use.fontawesome.com/releases/v6.0.0/css/all.css
+```
+
+
