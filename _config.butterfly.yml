@@ -8,8 +8,9 @@ menu:
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   Tools || fas fa-screwdriver-wrench:
-    Music: https://musicial.vercel.app/ || 
+    YesPlayMusic: https://musicial.vercel.app/ || 
     fa-solid fa-music
+    解压小游戏: https://mikutapmusic.vercel.app/ || fa-solidfa-gamepad-modern
 
 # Code Blocks (代碼相關)
 # -----------------------------------
