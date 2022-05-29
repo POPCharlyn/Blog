@@ -14,7 +14,7 @@ themes/butterfly/_config.yml
 ```
 新版butterfly cdn配置页面，在_config.yml底部
 
-![Alt text]( "https://p.zhheo.com/9oOR5i25990581652933939374.png")
+![]("https://p.zhheo.com/9oOR5i25990581652933939374.png!blogimg")
 #链接
 
 目前能用的jsdelivr链接
