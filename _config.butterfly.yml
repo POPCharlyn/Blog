@@ -7,7 +7,9 @@ menu:
   归档: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
-  
+  Tools || fas fa-screwdriver-wrench:
+    Music: https://musicial.vercel.app/ || 
+    fa-solid fa-music
 
 # Code Blocks (代碼相關)
 # -----------------------------------
