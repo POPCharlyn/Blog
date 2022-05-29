@@ -311,6 +311,12 @@ waline:
   bg: 
   pageview: false
   option:
+   copyright:true
+   emoji: [
+    'https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
+    'https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
+    'https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
+  ]
 
 # utterances
 # https://utteranc.es/
