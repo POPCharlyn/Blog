@@ -606,11 +606,11 @@ hr_icon:
 subtitle:
   enable: false
   # Typewriter Effect (打字效果)
-  effect: false
+  effect: true
   # loop (循環打字)
   loop: true
   # source 調用第三方服務
-  # source: true 關閉調用
+  # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
@@ -791,8 +791,8 @@ aplayerInject:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: true
-  position: bottom-right
+  enable: false
+  position: bottom-left
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
@@ -837,19 +837,15 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-     - <link rel="stylesheet" href="/css/scroll.css">
      - <link rel="stylesheet" href="/css/foot-jb.css">
+     - <link rel="stylesheet" href="/css/scroll.css">
      - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    # - <script src="css/heoMainColor.css"></script>
-    # - <script src="https://gcore.jsdelivr.net/gh/zhheo/JS-Heo@main/privacy/privacy.js"></script>
-    # - <script src="https://gcore.jsdelivr.net/gh/xilej/JS-Heo@main/rightmenu/rightmenu.js"></script>
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <script src="/js/rightmenu.js"></script>
-    # - <script src="css/rightmenu.css"></script>
     # - <script src="xxxx"></script>
 
 # CDN
