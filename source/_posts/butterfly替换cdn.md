@@ -12,7 +12,9 @@ tags: cdn
 ```mermaid
 themes/butterfly/_config.yml
 ```
+新版butterfly cdn配置页面，在_config.yml底部
 
+![Alt text]( "https://p.zhheo.com/9oOR5i25990581652933939374.png")
 #链接
 
 目前能用的jsdelivr链接
@@ -24,7 +26,8 @@ fastly.jsdelivr.net
 
 #npm
 
-```
+```npm
+https://npm.elemecdn.com
 https://unpkg.com/
 事例:https://unpkg.com/@waline/client@v2/dist/waline.js
 记得后面unpkg.com/后不带npm/
