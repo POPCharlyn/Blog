@@ -29,7 +29,7 @@ fastly.jsdelivr.net
 https://npm.elemecdn.com
 https://unpkg.com/
 事例:https://unpkg.com/@waline/client@v2/dist/waline.js
-记得后面unpkg.com/后不带npm/
+记住/后不带npm/
 ```
 我这里只列出我在用的cdn，我没有用到的cdn可以在评论中留言，有时间我会补充。
 ####jquery
