@@ -7,7 +7,7 @@ tags: cdn
 ---
 最近jsdelivr凉了，国内不少博客都出现了无法访问的问题。下面介绍一些jsdelivr的替换链接。
 
-####替换方式
+#### 替换方式
 
 ```
 themes/butterfly/_config.yml
@@ -23,7 +23,7 @@ gcore.jsdelivr.net
 fastly.jsdelivr.net
 ```
 
-####npm
+#### npm
 
 ```npm
 https://npm.elemecdn.com
@@ -32,20 +32,20 @@ https://unpkg.com/
 记住/后不带npm/
 ```
 我这里只列出我在用的cdn，我没有用到的cdn可以在评论中留言，有时间我会补充。
-####jquery
+#### jquery
 ```
 https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js
 ```
-####pjax
+#### pjax
 ```
 https://npm.elemecdn.com/pjax/pjax.min.js
 ```
-####waline
+#### waline
 ```
 https://unpkg.com/@waline/client@v2/dist/waline.js
 https://unpkg.com/@waline/client@v2/dist/waline.css
 ```
-####fontawesome
+#### fontawesome
 ```
 https://use.fontawesome.com/releases/v6.0.0/css/all.css
 ```
