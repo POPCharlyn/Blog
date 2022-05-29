@@ -14,7 +14,7 @@ themes/butterfly/_config.yml
 ```
 新版butterfly cdn配置页面，在_config.yml底部
 
-![]("https://ik.imagekit.io/nicexl/text/57822202270702.jpg")
+![1](https://ik.imagekit.io/nicexl/text/57822202270702.jpg)
 
 目前能用的jsdelivr链接
 
