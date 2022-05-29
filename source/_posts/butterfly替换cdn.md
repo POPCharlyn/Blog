@@ -22,7 +22,7 @@ themes/butterfly/_config.yml
 gcore.jsdelivr.net
 fastly.jsdelivr.net
 ```
-
+带npm的链接自己用下面链接替换即可
 #### npm
 
 ```npm
