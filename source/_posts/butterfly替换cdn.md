@@ -5,7 +5,7 @@ categories: 教程
 cover: https://ik.imagekit.io/nicexl/text/2785d5d234ba98d6a202e99f6bdcac7a_prpvld10x.jpeg
 tags: cdn
 ---
-最近jsdelivr凉了，国内不少博客都出现了无法访问的问题。下面介绍一些jsdelivr的替换链接。
+最近jsdelivr凉了，国内不少博客都出现了无法访问或访问慢的问题。下面介绍一些jsdelivr的替换链接。
 
 #### 替换方式
 
@@ -28,7 +28,7 @@ fastly.jsdelivr.net
 ```npm
 https://npm.elemecdn.com
 https://unpkg.com/
-事例:https://unpkg.com/@waline/client@v2/dist/waline.js
+演示:https://unpkg.com/@waline/client@v2/dist/waline.js
 记住/后不带npm/
 ```
 我这里只列出我在用的cdn，我没有用到的cdn可以在评论中留言，有时间我会补充。
