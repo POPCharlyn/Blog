@@ -9,7 +9,7 @@ menu:
   友链: /link/ || fas fa-link
   Tools || fas fa-screwdriver-wrench:
     YesPlayMusic : https://musicial.vercel.app/ || fas fa-music
-    解压小游戏 : https://mikutapmusic.vercel.app/ ||  fa-gamepad
+    解压小游戏 : https://mikutapmusic.vercel.app/ || fas fa-gamepad
 
 # Code Blocks (代碼相關)
 # -----------------------------------
@@ -837,8 +837,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-   # - <link rel="stylesheet" href="/css/foot-jb.css">
-   # - <link rel="stylesheet" href="/css/scroll.css">
+     - <link rel="stylesheet" href="/css/foot-jb.css">
+     - <link rel="stylesheet" href="/css/scroll.css">
      - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
