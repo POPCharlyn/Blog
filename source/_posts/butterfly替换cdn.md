@@ -49,7 +49,7 @@ https://unpkg.com/@waline/client@v2/dist/waline.css
 ```
 https://use.fontawesome.com/releases/v6.0.0/css/all.css
 ```
-####fancybox
+#### fancybox
 ```
 https://npm.elemecdn.com/@fancyapps/ui/dist/fancybox.css
 ```
