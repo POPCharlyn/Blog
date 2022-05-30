@@ -12,7 +12,7 @@ type: "link"
 <div id="friends-api"></div>
 <script src="https://gcore.jsdelivr.net/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
 <script>qexo_friend_api("friends-api","https://qexo-i.vercel.app");</script>
-#### 模板
+
 ````
 - name: Nicexl'blog
   link: https://nicexl.vercel.app
