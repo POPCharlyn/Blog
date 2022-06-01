@@ -481,7 +481,7 @@ site_verification:
 #   code_background: "rgba(27, 31, 35, .05)"
 #   toc_color: "#00c4b6"
 #   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
+#   blockquote_background_color: "#efefef"
 #   scrollbar_color: "#49b1f5"
 #   meta_theme_color_light: "ffffff"
 #   meta_theme_color_dark: "#0d0d0d"
@@ -837,7 +837,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-     - <link rel="stylesheet" href="/css/foot-jb.css">
+     - <link rel="stylesheet" href="/css/Transparent.css">
+     - <link rel="stylesheet" href="/css/background.css">
+     - <link rel="stylesheet" href="/css/footer.css">
      - <link rel="stylesheet" href="/css/scroll.css">
      - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="/css/heoMainColor.css">
