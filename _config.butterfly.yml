@@ -842,7 +842,6 @@ inject:
      - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/footer.css">
      - <link rel="stylesheet" href="/css/scroll.css">
-     - <link rel="stylesheet" href="/css/loaded.ejs">
     # - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
