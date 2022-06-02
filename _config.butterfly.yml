@@ -842,6 +842,7 @@ inject:
      - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/footer.css">
      - <link rel="stylesheet" href="/css/scroll.css">
+     - <link rel="stylesheet" href="/css/loaded.ejs">
     # - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
@@ -850,6 +851,8 @@ inject:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <script src="/js/rightmenu.js"></script>
      - <script src="/js/FunnyTitle.js"></script>
+     - <script src="https://vercel-jsdcdn.vercel.app/gh/zyoushuo/Blog@latest/hexo/css/loading_style_2.css"></script>
+     - <script src="https://vercel-jsdcdn.vercel.app/gh/zyoushuo/Blog@latest/hexo/css/loading_style_1.css"></script>
     # - <script src="xxxx"></script>
 
 # CDN
