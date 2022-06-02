@@ -7,8 +7,10 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
   head
     include ./head.pug
   body
-    if theme.preloader
-      !=partial('includes/loading/loading', {}, {cache: true})
+    //- if theme.preloader
+      //-  !=partial('includes/loading/loading', {}, {cache: true})
+   if theme.preloade
+      !=partial('includes/loading/loaded.ejs', {}, {cache:theme.fragment_cache})
 
     if theme.background
       #web_bg
