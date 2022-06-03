@@ -11,7 +11,6 @@ top_img: https://vercel-jsdcdn.vercel.app/gh/cungudafa/img/images/food.jpg
 new Artitalk({
       appId: 'CVLwrCkInSwVzAk7dg8PKGrD-MdYXbMMI',
       appKey: 'rVMF9CErbxRU7B85ezFQoEGj',
-      username: 'Nicexl'; //Leancloud中设置的用户名
 
 })
 </script>
