@@ -623,6 +623,7 @@ subtitle:
 # Loading Animation (加載動畫)
 preloader:
   enable: true
+  load_style：gear
   
 
 # aside (側邊欄)
