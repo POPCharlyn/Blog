@@ -1,8 +1,6 @@
 ---
-title: artitalk
+title: 说说
 type: artitalk
-noDate: 'true'
-comments: 'false'
 top_img: https://vercel-jsdcdn.vercel.app/gh/cungudafa/img/images/food.jpg
 ---
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
