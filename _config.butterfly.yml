@@ -314,9 +314,9 @@ waline:
   pageview: false
   option:
    emoji: [
-    'https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
-    'https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
-    'https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
+    'https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/alus',
+    'https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/qq',
+    'https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/tw-emoji',
   ]
 
 # utterances
@@ -624,7 +624,7 @@ subtitle:
    preloader:
      enable: true # true|false
      load_color: '#000000' # '#37474f'
-     load_style: gear # default|gear|scarecrow|image
+     load_style: default # default|gear|scarecrow|image
      load_image:  # url
   
 
