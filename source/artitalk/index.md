@@ -15,7 +15,7 @@ top_img: https://vercel-jsdcdn.vercel.app/gh/cungudafa/img/images/food.jpg
         var appID = "CVLwrCkInSwVzAk7dg8PKGrD-MdYXbMMI";
         var appKEY = "rVMF9CErbxRU7B85ezFQoEGj";
         var per = "5"; //每页显示说说的数量
-        var username = "cungudafa"; //Leancloud中设置的用户名
+        var username = "Nicexl"; //Leancloud中设置的用户名
         var placeholder1="只有cungudafa才能评论哦"; //在编辑说说的输入框中的占位符
         var placeholder2="没有密码，不能评论！";  //在编辑密码的输入框中的占位符
         var lazy = 1; //是否开启懒加载动画
