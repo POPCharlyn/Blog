@@ -624,8 +624,8 @@ subtitle:
 preloader:
      enable: true # true|false
      load_color: '#000000' # '#37474f'
-     load_style: image # default|gear|scarecrow|image
-     load_image: # https://ik.imagekit.io/nicexl/coding.gif
+     load_style: gear # default|gear|scarecrow|image
+     load_image: # URL
   
 
 # aside (側邊欄)
