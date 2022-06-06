@@ -851,13 +851,13 @@ inject:
      - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
      - <link rel="stylesheet" href="/css/pace-theme-flash.css">
+     - <script src="https://npm.elemecdn.com/leancloud-storage@4.10.0/dist/av-min.js"></script>
     # - <link rel="stylesheet" href="css/xxx.css">
   bottom:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <script src="/js/rightmenu.js"></script>
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
-     - <script src="https://npm.elemecdn.com/leancloud-storage@4.10.0/dist/av-min.js"></script>
     # - <script src="/js/xxx.js"></script>
 
 # CDN
