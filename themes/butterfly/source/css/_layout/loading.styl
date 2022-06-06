@@ -7,5 +7,5 @@ if hexo-config('preloader.enable')
     @import './_load_style/image'
   else
     @import './_load_style/default'
-  else
+  else if hexo-config('preloader.load_style') == 'pokeball'
     @import './_load_style/pokeball'
