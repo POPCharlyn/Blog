@@ -848,15 +848,16 @@ inject:
      - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/footer.css">
      - <link rel="stylesheet" href="/css/scroll.css">
-    # - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
-    # - <link rel="stylesheet" href="/xxx.css">
+     - <link rel="stylesheet" href="/css/nprogress.css">
+    # - <link rel="stylesheet" href="css/xxx.css">
   bottom:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <script src="/js/rightmenu.js"></script>
      - <script src="/js/FunnyTitle.js"></script>
-    # - <script src="xxxx"></script>
+     - <script src="/js/FunnyTitle.js"></script>
+    # - <script src="/js/nprogress.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -879,7 +880,7 @@ CDN:
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
-    # pjax:
+     pjax: https://npm.elemecdn.com/pjax/pjax.min.js
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
