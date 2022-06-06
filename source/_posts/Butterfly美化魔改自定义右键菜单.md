@@ -17,9 +17,9 @@ cover: https://ik.imagekit.io/nicexl/text/4b4aa91c9481a9e3__AyhR7Wxs.jpg
 /themes/butterfly/layout/includes
 ```
 
-在新建includes中新建rightmenu.pug文件,不过建议在includes创建dorakika文件夹然后再创建rightmenu.pug文件，不然后面可能需要你改一下引入文件目录
+在/includes/dorakika里创建rightmenu.pug文件
 
-###### 在/includes/dorakika里创建rightmenu.pug文件
+dorakika不是自带的文件夹，而是博主创建的方便管理的，推荐也创建个。
 
 #### rightmenu.pug
 
