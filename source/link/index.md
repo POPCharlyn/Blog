@@ -4,9 +4,14 @@ top_img: https://ik.imagekit.io/nicexl/Wallpaper/ba41a32b219e4b40ad055bbb5293589
 date: 2022-5-17
 type: "link"
 ---
+```
+<div id="qexo-friends"></div>
+<link rel="stylesheet" href="https://unpkg.com/qexo-static@1.1.3/hexo/friends/friends.css"/>
+<script src="https://unpkg.com/qexo-static@1.1.3/hexo/friends/friends.js"></script>
+<script>loadQexoFriends("qexo-friends", "https://qexo-i.vercel.app")</script>
+```
 
 {% note warning flat %} 申请友链的请先添加本站添加再申请!!!下方评论区进行友链申请 {% endnote %}
-
 
 ````
 - name: Nicexl'blog
