@@ -857,6 +857,7 @@ inject:
      - <script src="/js/rightmenu.js"></script>
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
+     - <script src="https://npm.elemecdn.com/leancloud-storage@4.10.0/dist/av-min.js"></script>
     # - <script src="/js/xxx.js"></script>
 
 # CDN
