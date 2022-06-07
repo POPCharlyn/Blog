@@ -854,12 +854,12 @@ inject:
      - <link rel="stylesheet" href="/css/rightmenu.css">
      - <link rel="stylesheet" href="/css/pace-theme-flash.css">
      - <link rel="stylesheet" href="https://vercel-jsdcdn.vercel.app/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/macblack.css">
+     - <script src="/js/hideMobileSidebar.js"></script>
     # - <link rel="stylesheet" href="css/xxx.css">
   bottom:
      - <script src="/js/rightmenu.js"></script>
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
-     - <script src="/js/hideMobileSidebar.js"></script>
     # - <script src="/js/xxx"></script>
 
 # CDN
