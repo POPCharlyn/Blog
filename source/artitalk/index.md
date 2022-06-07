@@ -5,8 +5,11 @@ type: "artitalk"
 ---
 
 <!-- 引用 artitalk -->
-<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+
+<script type="text/javascript" src="https://unpkg.com/artitalk@3.3.1/artitalk.js"></script>
+
 <!-- 存放说说的容器 -->
+
 <div id="artitalk_main"></div>
 <script>
 new Artitalk({
@@ -14,3 +17,4 @@ new Artitalk({
     appKey: 'rVMF9CErbxRU7B85ezFQoEGj' // Your LeanCloud appKey
 })
 </script>
+
