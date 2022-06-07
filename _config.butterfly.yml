@@ -310,7 +310,6 @@ valine:
 # https://waline.js.org/
 waline:
   serverURL: https://waline-test-onece.vercel.app
-  bg: 
   pageview: true
   option:
    emoji: [
