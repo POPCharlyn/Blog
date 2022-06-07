@@ -76,8 +76,8 @@
 }
 /* 在下面修改进度条外观 */
 .pace .pace-progress {
-  background: #1ef4fbec; /*进度条颜色*/
-  height: 3px;/* 进度条厚度 */
+  background: #23abd1; /*进度条颜色*/
+  height: 6px;/* 进度条厚度 */
 }
 .pace .pace-progress-inner {
   box-shadow: 0 0 10px #1ef4fbce, 0 0 5px #1ecffbd0; /*阴影颜色*/
