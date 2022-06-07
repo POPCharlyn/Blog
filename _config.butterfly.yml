@@ -14,7 +14,7 @@ menu:
 # Code Blocks (代碼相關)
 # -----------------------------------
 
-highlight_theme: darker #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -852,6 +852,7 @@ inject:
      - <link rel="stylesheet" href="/css/rightmenu.css">
      - <link rel="stylesheet" href="/css/pace-theme-flash.css">
      - <script src="https://npm.elemecdn.com/leancloud-storage@4.10.0/dist/av-min.js"></script>
+     - <link rel="stylesheet" href="https://vercel-jsdcdn.vercel.app/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/macblack.css">
     # - <link rel="stylesheet" href="css/xxx.css">
   bottom:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
