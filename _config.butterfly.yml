@@ -909,8 +909,8 @@ CDN:
     # fancybox_css_v4:
     # fancybox_v4:
     # medium_zoom:
-    # snackbar_css: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.css
-    # snackbar: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
+     snackbar_css: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.css
+     snackbar: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
     # activate_power_mode:
     # fireworks:
     # click_heart:
