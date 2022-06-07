@@ -6,7 +6,7 @@ type: "artitalk"
 
 <!-- 引用 artitalk -->
 
-<script type="text/javascript" src="https://unpkg.com/artitalk@3.3.1/artitalk.js"></script>
+<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
 
 <!-- 存放说说的容器 -->
 
