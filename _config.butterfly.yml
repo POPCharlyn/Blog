@@ -844,6 +844,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+     - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <link rel="stylesheet" href="/css/Transparent.css">
      - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/footer.css">
@@ -855,7 +856,6 @@ inject:
      - <link rel="stylesheet" href="https://vercel-jsdcdn.vercel.app/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/macblack.css">
     # - <link rel="stylesheet" href="css/xxx.css">
   bottom:
-     - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <script src="/js/rightmenu.js"></script>
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
@@ -909,8 +909,8 @@ CDN:
     # fancybox_css_v4:
     # fancybox_v4:
     # medium_zoom:
-    # snackbar_css:
-    # snackbar:
+    # snackbar_css: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.css
+    # snackbar: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
     # activate_power_mode:
     # fireworks:
     # click_heart:
