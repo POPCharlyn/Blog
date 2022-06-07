@@ -9,9 +9,13 @@ type: "link"
 <link rel="stylesheet" href="https://unpkg.com/qexo-static@1.1.3/hexo/friends/friends.css"/>
 <script src="https://unpkg.com/qexo-static@1.1.3/hexo/friends/friends.js"></script>
 <script>loadQexoFriends("qexo-friends", "https://qexo-i.vercel.app")</script>
+<div id="friends-api"></div>
+<script src="https://vercel-jsdcdn.vercel.app
+/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
+<script>qexo_friend_api("friends-api","https://qexo-i.vercel.app");</script>
 
 
-{% note warning flat %} 申请友链的请先添加本站添加再申请!!!下方评论区进行友链申请 {% endnote %}
+{% note warning flat %} 申请友链的请先添加本站添加再申请!!下方评论区进行友链申请 {% endnote %}
 
 ````
 - name: Nicexl'blog
