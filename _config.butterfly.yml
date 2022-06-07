@@ -853,14 +853,14 @@ inject:
      - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
      - <link rel="stylesheet" href="/css/pace-theme-flash.css">
-    # - <script src="https://npm.elemecdn.com/leancloud-storage@4.10.0/dist/av-min.js"></script>
      - <link rel="stylesheet" href="https://vercel-jsdcdn.vercel.app/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/macblack.css">
     # - <link rel="stylesheet" href="css/xxx.css">
   bottom:
      - <script src="/js/rightmenu.js"></script>
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
-    # - <script src="/js/xxx.js"></script>
+     - <script src="/js/hideMobileSidebar.js"></script>
+    # - <script src="/js/xxx"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
