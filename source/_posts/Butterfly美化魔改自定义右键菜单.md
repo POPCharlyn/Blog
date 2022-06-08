@@ -5,7 +5,9 @@ tags: 教程
 categories: Butterfly美化
 cover: https://ik.imagekit.io/nicexl/text/4b4aa91c9481a9e3__AyhR7Wxs.jpg
 ---
-最近发现[DoraKika](https://dorakika.cn/)写的右键菜单，风格简洁，十分的好看。
+最近发现[DoraKika](https://dorakika.cn/)写的右键菜单，风格简洁，十分的好看。并且支持[fontawesome](https://fontawesome.com/)
+
+可以在rightmenu.pug中自行添加
 
 ![效果预览](https://ik.imagekit.io/nicexl/text/4b4aa91c9481a9e3__AyhR7Wxs.jpg)
 
@@ -32,7 +34,7 @@ dorakika不是自带的文件夹，而是博主创建的方便管理的，推荐
 			i.fa-solid.fa-arrow-rotate-right
 		a.rightMenu-item(href="javascript:window.history.forward();")
 			i.fa-solid.fa-arrow-right
-		a.rightMenu-item(href="javascript:kk.scrollToTop();")
+		a.rightMenu-item#menu-radompage(href='https://nicexl.vercel.app/')
 			i.fa-solid.fa-house
 	.rightMenu-group.rightMenu-line.hide#menu-text
 		a.rightMenu-item(href="javascript:kk.copySelect();")
