@@ -850,7 +850,7 @@ inject:
      - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/footer.css">
      - <link rel="stylesheet" href="/css/scroll.css">
-     - <link rel="stylesheet" href="/css/heoMainColor.css">
+    # - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
      - <link rel="stylesheet" href="/css/pace-theme-flash.css">
      - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="defer" onload="this.media='all'">
