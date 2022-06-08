@@ -83,13 +83,13 @@ avatar:
   effect: false
 
 # Disable all banner image
-disable_top_img: false
+disable_top_img: true
 
 # The banner image of home page
 index_img: https://ik.imagekit.io/nicexl/Wallpaper/Aeolian_QRtDSqEg8r.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: true
+default_top_img: 
 
 # The banner image of archive page
 archive_img:
