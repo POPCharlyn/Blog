@@ -70,7 +70,7 @@ hr:before {
     /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
 
-#aside-content .card-info>div:first-child {
+# aside-content .card-info>div:first-child {
     background: url('https://markdown-img-1303371957.cos.ap-nanjing.myqcloud.com/dora/201704_C.png');
     border-radius: 20px;
     background-size: cover;
