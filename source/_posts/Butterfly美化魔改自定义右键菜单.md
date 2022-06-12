@@ -5,6 +5,7 @@ tags: 教程
 categories: Butterfly美化
 cover: https://ik.imagekit.io/nicexl/text/4b4aa91c9481a9e3__AyhR7Wxs.jpg
 ---
+
 最近发现[DoraKika](https://dorakika.cn/)写的右键菜单，风格简洁，十分的好看。并且支持[fontawesome](https://fontawesome.com/)
 
 可以在rightmenu.pug中自行添加
@@ -47,8 +48,6 @@ dorakika不是自带的文件夹，而是博主创建的方便管理的，推荐
 		a.rightMenu-item(href="javascript:kk.switchReadMode();")
 			i.fa-solid.fa-book
 			span='阅读模式'
-
-
 ```
 
 #### 修改layout.pug文件
@@ -56,7 +55,7 @@ dorakika不是自带的文件夹，而是博主创建的方便管理的，推荐
 添加如下内容
 
 ```
-    !=partial('includes/dorakika/rightmenu',{}, {cache:true})
+!=partial('includes/dorakika/rightmenu',{}, {cache:true})
 ```
 
 #### 创建rightmenu.css文件
@@ -140,7 +139,6 @@ dorakika不是自带的文件夹，而是博主创建的方便管理的，推荐
   z-index: 101;
   margin: 0!important;
 }
-
 ```
 
 #### 创建rightmenu.js文件
@@ -256,7 +254,6 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
     window.addEventListener('click',function(){kk.showRightMenu(false);});
 //     window.addEventListener('load',function(){kk.switchTheme(true);});
 }
-
 ```
 
 #### 在head和bottom分别引入js和css
@@ -271,6 +268,8 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
 
 ```
 - <script src="/js/rightmenu.js"></script>
+- <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
 ```
 
 然后就大功告成了！(◍˃̶ᗜ˂̶◍)✩
+
