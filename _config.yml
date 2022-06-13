@@ -127,7 +127,7 @@ githubcalendar:
   pc_minheight: 280px
   mobile_minheight: 0px
   color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']"
-  api: https://python-gitee-calendar-api.vercel.app/api
+  api: https://calendar-api-mu.vercel.app/api
   # api: https://python-gitee-calendar-api.vercel.app/api
   calendar_js: https://vercel-jsdcdn.vercel.app/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js
   plus_style: ""
