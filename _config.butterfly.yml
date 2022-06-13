@@ -5,6 +5,13 @@
 menu:
   主页: / || fas fa-home
   归档: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
+  说说: /artitalk/ || fas fa-comment
+  Tools || fas fa-screwdriver-wrench ||hide:
+    YesPlayMusic : https://musicial.vercel.app/ || fas fa-music
+    解压小游戏 : https://mikutapmusic.vercel.app/ || fas fa-gamepad
+
   
 # Code Blocks (代碼相關)
 # -----------------------------------
