@@ -100,7 +100,7 @@ neat_css:
     - '**/*.min.css'
     - 'jquery.fancybox.min.css'
     - '**/live2d-widget/waifu.css'
-    - 'https://use.fontawesome.com/releases/v6.0.0/css/all.css'
+    
 
 # 压缩js
 neat_js:
