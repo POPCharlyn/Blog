@@ -846,20 +846,20 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
-    # - <script src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.0/js/mdui.min.js"></script>
+     - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
+     - <script src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.0/js/mdui.min.js"></script>
     # - <link rel="stylesheet" href="/css/Transparent.css">
     # - <link rel="stylesheet" href="/css/background.css">
-    # - <link rel="stylesheet" href="/css/footer.css">
-    # - <link rel="stylesheet" href="/css/scroll.css">
-    # - <link rel="stylesheet" href="/css/heoMainColor.css">
-    # - <link rel="stylesheet" href="/css/rightmenu.css">
+     - <link rel="stylesheet" href="/css/footer.css">
+     - <link rel="stylesheet" href="/css/scroll.css">
+     - <link rel="stylesheet" href="/css/heoMainColor.css">
+     - <link rel="stylesheet" href="/css/rightmenu.css">
     # - <link rel="stylesheet" href="/css/pace-theme-flash.css">
     # - <link rel="stylesheet" href="css/xxx.css">
   bottom:
-    # - <script src="/js/rightmenu.js"></script>
-    # - <script src="/js/FunnyTitle.js"></script>
-    # - <script src="/js/pace.min.js"></script>
+     - <script src="/js/rightmenu.js"></script>
+     - <script src="/js/FunnyTitle.js"></script>
+     - <script src="/js/pace.min.js"></script>
     # - <script src="/js/xxx"></script>
 
 # CDN
@@ -883,7 +883,7 @@ CDN:
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
-    # pjax: https://npm.elemecdn.com/pjax/pjax.min.js
+     pjax: https://npm.elemecdn.com/pjax/pjax.min.js
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
@@ -891,8 +891,8 @@ CDN:
     # disqusjs:
     # disqusjs_css:
     # twikoo:
-    # waline_js: https://unpkg.com/@waline/client@v2/dist/waline.js
-    # waline_css: https://unpkg.com/@waline/client@v2/dist/waline.css
+     waline_js: https://unpkg.com/@waline/client@v2/dist/waline.js
+     waline_css: https://unpkg.com/@waline/client@v2/dist/waline.css
     # sharejs:
     # sharejs_css:
     # mathjax:
@@ -907,16 +907,16 @@ CDN:
     # instantpage:
     # typed:
     # pangu:
-    # fancybox_css_v4: https://npm.elemecdn.com/@fancyapps/ui/dist/fancybox.css
-    # fancybox_v4: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
+     fancybox_css_v4: https://npm.elemecdn.com/@fancyapps/ui/dist/fancybox.css
+     fancybox_v4: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
     # medium_zoom:
-    # snackbar_css: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.css
-    # snackbar: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
+     snackbar_css: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.css
+     snackbar: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
     # activate_power_mode:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6: https://use.fontawesome.com/releases/v6.0.0/css/all.css
+     fontawesomeV6: https://use.fontawesome.com/releases/v6.0.0/css/all.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
