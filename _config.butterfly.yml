@@ -846,19 +846,19 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-     - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
+    # - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
     # - <script src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.0/js/mdui.min.js"></script>
     # - <link rel="stylesheet" href="/css/Transparent.css">
     # - <link rel="stylesheet" href="/css/background.css">
-     - <link rel="stylesheet" href="/css/footer.css">
-     - <link rel="stylesheet" href="/css/scroll.css">
-     - <link rel="stylesheet" href="/css/heoMainColor.css">
-     - <link rel="stylesheet" href="/css/rightmenu.css">
+    # - <link rel="stylesheet" href="/css/footer.css">
+    # - <link rel="stylesheet" href="/css/scroll.css">
+    # - <link rel="stylesheet" href="/css/heoMainColor.css">
+    # - <link rel="stylesheet" href="/css/rightmenu.css">
     # - <link rel="stylesheet" href="/css/pace-theme-flash.css">
     # - <link rel="stylesheet" href="css/xxx.css">
   bottom:
-     - <script src="/js/rightmenu.js"></script>
-     - <script src="/js/FunnyTitle.js"></script>
+    # - <script src="/js/rightmenu.js"></script>
+    # - <script src="/js/FunnyTitle.js"></script>
     # - <script src="/js/pace.min.js"></script>
     # - <script src="/js/xxx"></script>
 
