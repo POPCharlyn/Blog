@@ -36,6 +36,8 @@
     "hexo-abbrlink": "^2.2.1",
     "hexo-neat": "^1.0.9",
     "hexo-githubcalendar": "^1.2.3",
-    "hexo-electric-clock": "^1.1.0"
+    "hexo-electric-clock": "^1.1.0",
+    "hexo-butterfly-artitalk": "^1.0.4",
+    "hexo-butterfly-artitalk-pro": "^1.0.5"
   }
 }
