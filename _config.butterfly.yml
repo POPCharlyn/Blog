@@ -847,7 +847,7 @@ css_prefix: true
 inject:
   head:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
-     - <script src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.0/js/mdui.min.js"></script>
+    # - <script src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.0/js/mdui.min.js"></script>
     # - <link rel="stylesheet" href="/css/Transparent.css">
     # - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/footer.css">
@@ -873,7 +873,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: local
+  third_party_provider: unpkg
   option:
     # main_css:
     # main:
