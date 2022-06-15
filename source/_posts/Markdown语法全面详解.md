@@ -3,7 +3,7 @@ title: Markdown语法全面详解
 date: 2022-06-16 06:09:37
 tags: 教程
 categories: Markdown
-cover:
+cover: https://ik.imagekit.io/nicexl/text/386_qSCoLCgmI.jpeg
 ---
 # Markdown语法全面详解
 
@@ -180,8 +180,8 @@ There is a literal backtick (`) here.
 ```text
 `Please don't use any `<blink>` tags.
 
-<p><code>&#8212;</code> is the decimal-encoded
-equivalent of <code>&mdash;</code>.</p>
+<p><code>—</code> is the decimal-encoded
+equivalent of <code>—</code>.</p>
 ```
 
 ### 2.5 分割线
