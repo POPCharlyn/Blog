@@ -832,9 +832,13 @@ inject:
   head:
      - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
+     - <link rel="stylesheet" href="/css/scroll.css">
+     - <link rel="stylesheet" href="/css/pace-theme-flash.css">
+     - <link rel="stylesheet" href="/css/footer.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
      - <script src="/js/rightmenu.js"></script>
+     - <script src="/js/FunnyTitle.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
