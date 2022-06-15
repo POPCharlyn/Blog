@@ -1,7 +1,7 @@
 @font-face{
     font-family: 'YUANSHEN_ZH';
     font-display: swap;
-    src: url('../font/YUANSHEN_ZH.ttf') format("truetype");
+    src: url('/font/YUANSHEN_ZH.ttf') format("truetype");
 }
 body {
     font-family: 'YUANSHEN_ZH';
