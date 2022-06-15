@@ -12,10 +12,8 @@ menu:
     YesPlayMusic : https://musicial.vercel.app/ || fas fa-music
     解压小游戏 : https://mikutapmusic.vercel.app/ || fas fa-gamepad
 
-
-  
 # Code Blocks (代碼相關)
-# -----------------------------------
+# --------------------------------------
 
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
@@ -85,13 +83,13 @@ avatar:
   effect: false
 
 # Disable all banner image
-disable_top_img: true
+disable_top_img: false
 
 # The banner image of home page
-index_img: https://ik.imagekit.io/nicexl/Wallpaper/Aeolian_QRtDSqEg8r.jpg
+index_img:
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: 
+default_top_img:
 
 # The banner image of archive page
 archive_img:
@@ -260,7 +258,7 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus
   use: Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -359,13 +357,6 @@ giscus:
     dark: dark
   option:
 
-# Remark42
-# https://remark42.com/docs/configuration/frontend/
-remark42:
-  host: # Your Host URL
-  siteId: # Your Site ID
-  option:
-
 # Chat Services
 # --------------------------------------
 
@@ -413,7 +404,6 @@ footer:
     enable: true
     since: 2020
   custom_text: <span id="hitokoto">正在加载....</span><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script><br><a style="margin-inline:5px"target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为 Hexo" alt="HEXO"></a><a style="margin-inline:5px"target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用 Butterfly" alt="Butterfly"></a><a style="margin-inline:5px"target="_blank" href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white" title="部署于Vercel" alt="VERCEL"></a>
-
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -505,7 +495,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: "#efefef"
+background:
 
 # Footer Background
 footer_bg: false
@@ -522,17 +512,17 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: flase
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: flase
-  mobile: flase
+  click_to_change: false
+  mobile: false
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: flase
-  mobile: flase
+  enable: false
+  mobile: false
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
@@ -602,8 +592,8 @@ blog_title_font:
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
   enable: true
-  icon: '\f197' # the unicode value of Font Awesome icon, such as '\3423'
-  icon-top: -10px
+  icon: # the unicode value of Font Awesome icon, such as '\3423'
+  icon-top:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
@@ -623,13 +613,7 @@ subtitle:
   sub:
 
 # Loading Animation (加載動畫)
-
-preloader:
-     enable: true # true|false
-     load_color: '#000000' # '#37474f'
-     load_style: gear  # default|gear|scarecrow|image
-     load_image:  # url
-  
+preloader: false
 
 # aside (側邊欄)
 # --------------------------------------
@@ -639,7 +623,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: left # left or right
+  position: right # left or right
   archives: true
   card_author:
     enable: true
@@ -665,7 +649,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: true
+    color: false
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
     enable: true
@@ -690,8 +674,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: true
-  publish_date: 2022/5/17 10:00:00
+  enable: false
+  publish_date:
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -846,34 +830,25 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-     - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
-     - <script src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.0/js/mdui.min.js"></script>
-    # - <link rel="stylesheet" href="/css/Transparent.css">
-    # - <link rel="stylesheet" href="/css/background.css">
-     - <link rel="stylesheet" href="/css/footer.css">
-     - <link rel="stylesheet" href="/css/scroll.css">
+     - <script src="/js/rightmenu.js"></script>
      - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <link rel="stylesheet" href="/css/rightmenu.css">
-    # - <link rel="stylesheet" href="/css/pace-theme-flash.css">
-    # - <link rel="stylesheet" href="css/xxx.css">
+    # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-     - <script src="/js/rightmenu.js"></script>
-     - <script src="/js/FunnyTitle.js"></script>
-     - <script src="/js/pace.min.js"></script>
-    # - <script src="/js/xxx"></script>
+    # - <script src="xxxx"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
 CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
-  # option: local/jsdelivr/unpkg
-  # Dev version cannot choose jsdelivr/unpkg (dev版的主題不能設置為 jsdelivr/unpkg)
+  # option: local/jsdelivr
+  # Dev version cannot choose jsdelivr (dev版的主題不能設置為 jsdelivr)
   internal_provider: local
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
-  # option: local/jsdelivr/unpkg
+  # option: local/jsdelivr
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: unpkg
+  third_party_provider: jsdelivr
   option:
     # main_css:
     # main:
@@ -883,7 +858,7 @@ CDN:
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
-     pjax: https://npm.elemecdn.com/pjax/pjax.min.js
+    # pjax:
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
@@ -891,8 +866,8 @@ CDN:
     # disqusjs:
     # disqusjs_css:
     # twikoo:
-     waline_js: https://unpkg.com/@waline/client@v2/dist/waline.js
-     waline_css: https://unpkg.com/@waline/client@v2/dist/waline.css
+    # waline_js:
+    # waline_css:
     # sharejs:
     # sharejs_css:
     # mathjax:
@@ -907,16 +882,16 @@ CDN:
     # instantpage:
     # typed:
     # pangu:
-     fancybox_css_v4: https://npm.elemecdn.com/@fancyapps/ui/dist/fancybox.css
-     fancybox_v4: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
+    # fancybox_css_v4:
+    # fancybox_v4:
     # medium_zoom:
-     snackbar_css: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.css
-     snackbar: https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
+    # snackbar_css:
+    # snackbar:
     # activate_power_mode:
     # fireworks:
     # click_heart:
     # ClickShowText:
-     fontawesomeV6: https://use.fontawesome.com/releases/v6.0.0/css/all.css
+    # fontawesomeV6:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
