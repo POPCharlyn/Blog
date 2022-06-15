@@ -835,6 +835,7 @@ inject:
      - <link rel="stylesheet" href="/css/scroll.css">
      - <link rel="stylesheet" href="/css/pace-theme-flash.css">
      - <link rel="stylesheet" href="/css/footer.css">
+     - <link rel="stylesheet" href="/css/font.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
      - <script src="/js/rightmenu.js"></script>
@@ -895,7 +896,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6:
+     fontawesomeV6: https://use.fontawesome.com/releases/v6.0.0/css/all.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
