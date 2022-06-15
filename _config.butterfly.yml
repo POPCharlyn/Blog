@@ -803,9 +803,9 @@ pangu:
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true
-  field: site # site/post
+  field: post # site/post
   placeholder: https://ik.imagekit.io/nicexl/coding.gif
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
