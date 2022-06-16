@@ -179,3 +179,6 @@ artitalk:
     atEmoji: {
       'Mafumafu1':'https://vercel-jsdcdn.vercel.app/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
       'Mafumafu2':'https://vercel-jsdcdn.vercel.app/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
+aplayer:
+  meting: false
+  asset_inject: true
