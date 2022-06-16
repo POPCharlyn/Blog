@@ -1,6 +1,5 @@
 ---
 title: 随心听
-date: 6/17
 ---
 {% aplayerlist %}
 {
@@ -21,5 +20,4 @@ date: 6/17
 "lrc": "https://www.panta.eu.org/onedrive/%F0%9F%8E%B5%E9%9F%B3%E4%B9%90/All%20Falls%20Down%20-%20Alan%20Walker,Noah%20Cyrus,Digital%20Farm%20Animals,Juliander.lrc"
 }
 ]
-}
 {% endaplayerlist %}
