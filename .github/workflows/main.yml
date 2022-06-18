@@ -1,0 +1,53 @@
+#这是帮助您开始使用操作的基本工作流程
+
+名称：CI
+
+#控制工作流何时运行
+上：
+  #在推送或拉取请求事件上触发工作流，但仅针对主分支
+  推：
+    分支：[主要]
+  拉请求：
+    分支：[主要]
+
+  #允许您从“操作”选项卡手动运行此工作流程
+  工作流调度：
+
+#一个工作流运行由一个或多个可以顺序或并行运行的作业组成
+工作：
+  #此工作流包含一个名为“build”的作业
+  构建：
+    #作业将运行的运行器类型
+    运行：ubuntu-latest
+
+    # Steps 表示将作为作业的一部分执行的一系列任务
+    步骤：
+      -名称：结帐来源
+        用途：操作/结帐@v1
+        与：
+            参考：主要
+
+      -名称：设置 Node.js
+        使用：操作/设置节点@v1
+        与：
+              节点版本：'12 '
+
+
+      -名称：设置 Hexo
+        环境：
+                # HEXO_DEPLOY_PRI_XIAOXIN_WINDOW 这个就是配置hexo仓库秘密的名字，一定要上
+                ACTION_DEPLOY_KEY : ${{ secrets.HEXO_DEPLOY_PRI_XIAOXIN_WINDOW }}
+        运行：|
+                    mkdir -p ~/.ssh/
+                    echo "$ACTION_DEPLOY_KEY"> ~/.ssh/id_rsa
+                    chmod 700 ~/.ssh
+                    chmod 600 ~/.ssh/id_rsa
+                    ssh-keyscan github.com >> ~/.ssh/known_hosts
+                    git config --global user.email 你的 GitHub 邮箱
+                    git config --global user.name 你的GitHub
+                    npm install hexo-cli -g
+                    npm 安装
+      -名称：部署
+        运行：|
+            hexo 清洁
+            hexo部署
