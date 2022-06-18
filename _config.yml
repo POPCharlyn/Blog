@@ -100,6 +100,8 @@ neat_css:
     - '**/*.min.css'
     - 'jquery.fancybox.min.css'
     - '**/live2d-widget/waifu.css'
+    - '**aplayer.css'
+
     
 
 # 压缩js
@@ -180,5 +182,5 @@ artitalk:
       'Mafumafu1':'https://vercel-jsdcdn.vercel.app/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
       'Mafumafu2':'https://vercel-jsdcdn.vercel.app/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
 aplayer:
-  meting: false
-  asset_inject: true
+  meting: true
+  asset_inject: false
