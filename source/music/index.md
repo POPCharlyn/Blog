@@ -2,85 +2,25 @@
 title: 随心听
 ---
 
-<div id="aplayer-day2"></div>
-
-<script>
-    (
-function () {
-const ap2 = new APlayer({
-    container: document.getElementById('aplayer-day2'),
-    autoplay: false,
-    theme: '#f86442',
-    loop: 'none',
-    preload: 'none',
-    mutex: true,
-    listFolded: false,
-    audio: [
-    {
-        name: '菜根谭 修省 011',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/011_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20011.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    },
-    {
-        name: '菜根谭 修省 012',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/012_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20012.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    },
-    {
-        name: '菜根谭 修省 013',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/013_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20013.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    },
-    {
-        name: '菜根谭 修省 014',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/014_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20014.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    },
-    {
-        name: '菜根谭 修省 015',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/015_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20015.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    },
-    {
-        name: '菜根谭 修省 016',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/016_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20016.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    },
-    {
-        name: '菜根谭 修省 017',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/017_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20017.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    },
-    {
-        name: '菜根谭 修省 018',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/018_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20018.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    },
-    {
-        name: '菜根谭 修省 019',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/019_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20019.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    },
-    {
-        name: '菜根谭 修省 020',
-        artist: '陶了个然',
-        url: 'https://s-bj-2220-zkeq.oss.dogecdn.com/caigentan/020_%E8%8F%9C%E6%A0%B9%E8%B0%AD%20%E4%BF%AE%E7%9C%81%20020.m4a',
-        cover: 'https://imagev2.xmcdn.com/storages/6756-audiofreehighqps/88/D1/GMCoOSUFjLbqAAR0RwEB6wR1.jpg'
-    }
+{% meting "7422861869" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:400px" "preload:none" "theme:#ad7a86"%}
+{% aplayerlist %}
+{
+    "narrow": false,                          // Optional, narrow style
+    "autoplay": true,                         // Optional, autoplay song(s), not supported by mobile browsers
+    "mode": "random",                         // Optional, play mode, can be `random` `single` `circulation`(loop) `order`(no loop), default: `circulation`
+    "showlrc": 3,                             // Optional, show lrc, can be 1, 2, 3
+    "mutex": true,                            // Optional, pause other players when this player playing
+    "theme": "#e6d0b2",	                      // Optional, theme color, default: #b7daff
+    "preload": "metadata",                    // Optional, the way to load music, can be 'none' 'metadata' 'auto', default: 'auto'
+    "listmaxheight": "513px",                 // Optional, max height of play list
+    "music": [
+        {
+            "title": "CoCo",
+            "author": "Jeff Williams",
+            "url": "https://xilej.eu.org/api/raw/?path=/🎵音乐/aLIEz%20-%20mizuki%20(瑞葵)%26SawanoHiroyuki%5BnZk%5D.flac",
+            "pic": "caffeine.jpeg",
+            "lrc": "caffeine.txt"
+        }
     ]
-});
-
-
 }
-)()
-
-</script>
+{% endaplayerlist %}
