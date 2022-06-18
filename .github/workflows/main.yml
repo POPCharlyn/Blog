@@ -1,43 +1,43 @@
-#这是帮助您开始使用操作的基本工作流程
+# This is a basic workflow to help you get started with Actions
 
-名称：CI
+name: CI
 
-#控制工作流何时运行
-上：
-  #在推送或拉取请求事件上触发工作流，但仅针对主分支
-  推：
-    分支：[主要]
-  拉请求：
-    分支：[主要]
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
-  #允许您从“操作”选项卡手动运行此工作流程
-  工作流调度：
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
-#一个工作流运行由一个或多个可以顺序或并行运行的作业组成
-工作：
-  #此工作流包含一个名为“build”的作业
-  构建：
-    #作业将运行的运行器类型
-    运行：ubuntu-latest
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
 
-    # Steps 表示将作为作业的一部分执行的一系列任务
-    步骤：
-      -名称：结帐来源
-        用途：操作/结帐@v1
-        与：
-            参考：主要
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v1
+        with:
+            ref: main
 
-      -名称：设置 Node.js
-        使用：操作/设置节点@v1
-        与：
-              节点版本：'12 '
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+              node-version: '12'
 
 
-      -名称：设置 Hexo
-        环境：
-                # HEXO_DEPLOY_PRI_XIAOXIN_WINDOW 这个就是配置hexo仓库秘密的名字，一定要上
-                ACTION_DEPLOY_KEY : ${{ secrets.HEXO_DEPLOY_PRI_XIAOXIN_WINDOW }}
-        运行：|
+      - name: Setup Hexo
+        env: 
+                # HEXO_DEPLOY_PRI_XIAOXIN_WINDOW 这个就是配置hexo仓库secrets的name，一定要对应上
+                ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_PRI_XIAOXIN_WINDOW }}
+        run: |
                     mkdir -p ~/.ssh/
                     echo "$ACTION_DEPLOY_KEY"> ~/.ssh/id_rsa
                     chmod 700 ~/.ssh
@@ -46,8 +46,8 @@
                     git config --global user.email "1043865083@qq.com"
                     git config --global user.name "xilej"
                     npm install hexo-cli -g
-                    npm 安装
-      -名称：部署
-        运行：|
-            hexo 清洁
-            hexo部署
+                    npm install
+      - name: Deploy
+        run: |
+            hexo clean
+            hexo deploy
