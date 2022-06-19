@@ -5,6 +5,7 @@ tags: 教程
 categories: Markdown
 cover: https://ik.imagekit.io/nicexl/text/386_qSCoLCgmI.jpeg
 ---
+
 # Markdown语法全面详解
 
 目录
@@ -107,7 +108,7 @@ _这里显示的倾斜体_
 写法：
 
 ```text
-![图片描述](https://www.z01.com/template/office/style/images/hezi5.jpg)
+![图片描述](https://xxxxxx/xxx.jpg)
 ```
 
 效果：
@@ -119,11 +120,9 @@ _这里显示的倾斜体_
 下面这三种链接的定义都是相同：
 
 ```text
-[这是一个链接]: http://www.z01.com/  "这里是链接的title内容"
-[这是一个链接]: http://www.z01.com/  '这里是链接的title内容'
-[这是一个链接]: http://www.z01.com/  (这里是链接的title内容)
-
-这是一个链接 [这是逐浪软件官网链接](http://www.z01.com/).
+[这是一个链接]: http://nicexl.er.org/  "这里是链接的title内容"
+[这是一个链接]: http://nicexl.er.org/  '这里是链接的title内容'
+[这是一个链接]: http://nicexl.er.org/  (这里是链接的title内容)
 ```
 
 结果： 这是一个链接 这是逐浪软件官网链接.
@@ -131,7 +130,7 @@ _这里显示的倾斜体_
 在链接的时候也可以选择加上title属性，title 属性是选择性的，链接名称可以用字母、数字和空格，但是不分大小写：
 
 ```text
-这是一个链接 [这是逐浪软件官网链接](http://www.z01.com/ "欢迎访问逐浪软件官网").
+[这是一个链接](http://nicexl.er.org/ "欢迎访问").
 ```
 
 结果： 这是一个链接 这是逐浪软件官网链接
@@ -139,8 +138,8 @@ _这里显示的倾斜体_
 输出 HTML 为：
 
 ```text
-<p>这是一个链接 <a href="http://www.z01.com/" title="欢迎访问逐浪软件官网">
-这是逐浪软件官网链接</a>.</p>
+<p>这是一个链接 <a href="http://nicexl.er.org/" title="欢迎访问软件">
+这里是nicexl的blog</a>.</p>
 ```
 
 ### 2.4 代码块
@@ -150,13 +149,13 @@ _这里显示的倾斜体_
 如果要标记一小段行内代码，你可以用反引号把它包起来（```），例如：
 
 ```text
-            Use the `printf()` function.
+Use the `printf()` function.
 ```
 
 会产生：
 
 ```text
-            <p>Use the <code>printf()</code> function.</p>
+<p>Use the <code>printf()</code> function.</p>
 ```
 
 如果要在代码区段内插入反引号，你可以用多个反引号来开启和结束代码区段： There is a literal backtick (`) here. 这段语法会产生：
@@ -251,7 +250,7 @@ un*frigging*believable
 >
 > 文字引用 
 > 文字引用 
-> 文字引用 
+> 文字引用
 ```
 
 显示如下：
@@ -365,7 +364,6 @@ Markdown 支持有序列表和无序列表。 无序列表使用星号、加号�
 香蕉 | $1 | 5 |
 苹果 | $1 | 6 |
 草莓 | $1 | 7 |
-
 ```
 
 效果如下：
@@ -379,7 +377,6 @@ name | 111 | 222 | 333 | 444
 - | :-: | :-: | :-: | -:
 aaa | bbb | ccc | ddd | eee| 
 fff | ggg| hhh | iii | 000|
-
 ```
 
 效果如下：
@@ -393,7 +390,6 @@ name | 111 | 222 | 333 | 444
 :-: | :-: | :-: | :-: | :-:
 aaa | bbb | ccc | ddd | eee| 
 fff | ggg| hhh | iii | 000|
-
 ```
 
 效果如下：
@@ -424,3 +420,4 @@ _   底线
 .   英文句点
 !   惊叹号
 ```
+
