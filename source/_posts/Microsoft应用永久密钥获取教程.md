@@ -27,6 +27,6 @@ cover: https://ik.imagekit.io/nicexl/text/765243604c4abea65c4da035d17ff8da_0HBdJ
 
 ### 结尾
 
-![1]（https://ik.imagekit.io/nicexl/text/71355945_8yY4Li2U0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655635911325）
+![1](https://ik.imagekit.io/nicexl/text/71355945_8yY4Li2U0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655635911325)
 在Response preview中的secretText处就是你的secret值
 
