@@ -183,4 +183,4 @@ artitalk:
       'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
 aplayer:
   meting: true
-  asset_inject: false
+  asset_inject: true
