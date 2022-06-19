@@ -838,6 +838,7 @@ css_prefix: true
 inject:
   head:
      - <link rel="stylesheet" href="/css/heoMainColor.css">
+     - <meta name="msvalidate.01" content="45638703FCDBAEC549D1FA7EBFAB12BC" />
      - <link rel="stylesheet" href="/css/rightmenu.css">
      - <link rel="stylesheet" href="/css/scroll.css">
      - <link rel="stylesheet" href="/css/pace-theme-flash.css">
