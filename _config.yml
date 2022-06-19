@@ -100,7 +100,7 @@ neat_css:
     - '**/*.min.css'
     - 'jquery.fancybox.min.css'
     - '**/live2d-widget/waifu.css'
-    - '**aplayer.css'
+ 
 
     
 
