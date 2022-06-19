@@ -133,7 +133,7 @@ githubcalendar:
   color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']"
   api: https://calendar-api-mu.vercel.app/api
   # api: https://python-gitee-calendar-api.vercel.app/api
-  calendar_js: https://vercel-jsdcdn.vercel.app/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js
+  calendar_js: https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js
   plus_style: ""
 # hexo-electric-clock
 electric_clock:
@@ -179,8 +179,8 @@ artitalk:
     color1: '#49b1f5'
     color2: '#00c4b6'
     atEmoji: {
-      'Mafumafu1':'https://vercel-jsdcdn.vercel.app/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
-      'Mafumafu2':'https://vercel-jsdcdn.vercel.app/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
+      'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
+      'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
 aplayer:
   meting: true
   asset_inject: false
