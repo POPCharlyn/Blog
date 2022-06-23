@@ -192,3 +192,8 @@ sitemap:
   rel: true
   tags: false
   categories: false
+nofollow:
+  enable: true
+  field: site
+  exclude: false
+   
