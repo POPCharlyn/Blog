@@ -40,7 +40,7 @@
     "hexo-butterfly-artitalk": "^1.0.4",
     "hexo-butterfly-artitalk-pro": "^1.0.5",
     "hexo-filter-nofollow": "^2.0.2",
-    "hexo-tag-aplayer": "^3.0.4",
-    "hexo-submit-urls-to-search-engine": "^2.1.0"
+    "hexo-tag-aplayer": "^3.0.4"
+    
   }
 }
