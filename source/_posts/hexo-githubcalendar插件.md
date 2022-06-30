@@ -1,9 +1,8 @@
 ---
 title: 教程：hexo-githubcalendar 插件 1.0
-date: 2022-06-23 07:15:39
+date: 2022-06-30 07:15:39
 tags: 教程
-categories: - Github
-            - hexo-githubcalendar
+categories:  Github
 cover: https://ik.imagekit.io/nicexl/text/dgfhrjn_MFJ_84700.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656554940160
 ---
 
@@ -187,6 +186,6 @@ color: "['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc
 ```
 hexo clean && hexo g && hexo s
 ```
-即发现部署完成了
 
+即发现部署完成了
 
