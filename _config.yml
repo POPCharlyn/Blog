@@ -231,7 +231,6 @@ hexo_submit_urls_to_search_engine:
   # 存放 google key 的 json 文件，放于网站根目录
   google_key_file: google_key.json
   replace: 0  # 是否替换链接中的部分字符串，可选值：1 | 0（0：否；1：是）
-  find_what: http://cjh0613.github.io/blog
-  replace_with: https://cjh0613.com
+
 deploy:
 - type: cjh_bing_url_submitter
