@@ -212,3 +212,5 @@ algolia:
     - slug
     - tags
     - title
+plugins:
+  - hexo-algoliasearch
