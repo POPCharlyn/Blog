@@ -179,9 +179,8 @@ artitalk:
     color1: '#49b1f5'
     color2: '#00c4b6'
     atEmoji: {
-      'Mafumafu1':'https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/alus',
-      'Mafumafu1':'https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/qq',
-      'Mafumafu2':'https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/tw-emoji'}
+      'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
+      'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
 aplayer:
   meting: true
   asset_inject: false
@@ -198,4 +197,3 @@ nofollow:
   field: site
   exclude: false
    
-
