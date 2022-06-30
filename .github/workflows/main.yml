@@ -53,3 +53,4 @@ jobs:
         run: |
             hexo clean
             hexo deploy
+            hexo algolia
