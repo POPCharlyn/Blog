@@ -1,6 +1,4 @@
 User-agent: *
-Allow: /
-Allow: /home/
 Allow: /about/
 Allow: /archives/
 Allow: /categories/
