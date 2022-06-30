@@ -3,7 +3,7 @@ title: 教程：hexo-githubcalendar 插件 1.0
 date: 2022-06-23 07:15:39
 tags: 教程
 categories: - Github
-                   - hexo-githubcalendar
+            - hexo-githubcalendar
 cover: https://ik.imagekit.io/nicexl/text/dgfhrjn_MFJ_84700.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656554940160
 ---
 
