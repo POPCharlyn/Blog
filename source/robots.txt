@@ -1,5 +1,4 @@
 User-agent: *
-Allow: /about/
 Allow: /archives/
 Allow: /categories/
 Allow: /tags/
