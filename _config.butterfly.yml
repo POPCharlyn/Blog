@@ -47,7 +47,7 @@ social:
 algolia_search:
   enable: true
   hits:
-    per_page: 6
+    per_page: 8
 search:
   title: 搜索
   load_data: 数据库加载中
