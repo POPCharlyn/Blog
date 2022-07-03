@@ -863,6 +863,7 @@ inject:
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
      - <script src="/js/universe.js"></script>
+     - <canvas id="universe"></canvas>
     # - <script src="xxxx"></script>
 
 # CDN
