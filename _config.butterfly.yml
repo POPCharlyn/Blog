@@ -858,12 +858,12 @@ inject:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <link rel="stylesheet" href="/css/universe.css">
      - <script src="/js/universe.js"></script>
+     - <canvas id="universe"></canvas>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
      - <script src="/js/rightmenu.js"></script>
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
-     - <canvas id="universe"></canvas>
     # - <script src="xxxx"></script>
 
 # CDN
