@@ -41,10 +41,7 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
   
 
 
-    #web_bg:before,
-    #web_bg {
-    background-image: url(https://raw.githubusercontent.com/Justlovesmile/CDN/master/gallery/darkmodepicture6.jpg);
-}
+  
     #footer:before,
     #page-header:before
       position: absolute
@@ -153,3 +150,6 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
         background: lighten(#121212, 5)
    
     
+[data-theme='dark'] #web_bg {
+    background-image: url(https://raw.githubusercontent.com/Justlovesmile/CDN/master/gallery/darkmodepicture6.jpg);
+}
