@@ -1,10 +1,12 @@
 ---
 title: Markdown语法全面详解
 date: 2022-06-16 06:09:37
+updated: 2022-06-16
 tags: 教程
 categories: Markdown
 cover: https://ik.imagekit.io/nicexl/text/386_qSCoLCgmI.jpeg
 swiper_index: 3
+description: 主要讲什么是Markdown语法，以及Markdown的用法
 ---
 
 # Markdown语法全面详解
