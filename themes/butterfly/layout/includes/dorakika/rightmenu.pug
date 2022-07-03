@@ -19,8 +19,8 @@
 		a.rightMenu-item(href="javascript:kk.switchReadMode();")
 			i.fa-solid.fa-book
 			span='阅读模式'
-	.rightMenu-group.rightMenu-CommentText
-	         a.rightMenu-item(href="javascript:window.hideRightMenu();")
+	.rightMenu-group.rightmenu-mask.hide#menu-commenttext
+	         a.rightMenu-item(href="javascript:window.rm.rightMenuCommentText(selectTextPre)();")
 		        i.fa-solid.fa-window-restore
 			span='测试'
 		          
