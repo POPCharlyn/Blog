@@ -4,6 +4,7 @@ date: 2022-06-16 06:09:37
 tags: 教程
 categories: Markdown
 cover: https://ik.imagekit.io/nicexl/text/386_qSCoLCgmI.jpeg
+swiper_index: 3
 ---
 
 # Markdown语法全面详解
