@@ -1,10 +1,14 @@
-User-agent: *
-Allow: /archives/
+User-agent: * 
+Allow: /
 Allow: /categories/
 Allow: /tags/
+Allow: /archives/
+
 Disallow: /js/
 Disallow: /css/
-Disallow: /fonts/
+Disallow: /images/
+Disallow: /img/
+
 
 Sitemap: https://nicexl.eu.org/sitemap.xml
 
