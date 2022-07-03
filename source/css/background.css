@@ -167,3 +167,8 @@ div#bbTimeList:hover {
 .hide-inline>.hide-button {
     border-radius: 25px;
 }
+
+#page-header:not(.not-top-img):before {background-color: transparent !important;}
+#page-header.post-bg:before {position: absolute;top: 0;left: 0;display: block;width: 100%;height: 100%;background-color: rgba(0,0,0,0.5) !important;content: '';}
+
+
