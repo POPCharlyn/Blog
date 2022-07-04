@@ -858,6 +858,7 @@ inject:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <link rel="stylesheet" href="/css/universe.css">
      - <canvas id="universe"></canvas>
+     - <script src="/js/dark-light.js"></script>
     # - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/Transparent.css">
     # - <link rel="stylesheet" href="/xxx.css">
@@ -866,8 +867,6 @@ inject:
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
      - <script defer src="/js/universe.js"></script>
-
-
 
     # - <script src="xxxx"></script>
 
