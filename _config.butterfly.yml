@@ -860,7 +860,6 @@ inject:
      - <canvas id="universe"></canvas>
     # - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/Transparent.css">
-     - <link rel="stylesheet" href="/css/transparent.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
      - <script src="/js/rightmenu.js"></script>
