@@ -628,7 +628,7 @@ subtitle:
 preloader: 
  enable: true # true|false
  load_color: '#000000' # '#37474f'
- load_style: pokeball # default|gear|scarecrow|image|pokeball|hyperspace
+ load_style: hyperspace # default|gear|scarecrow|image|pokeball|hyperspace
 
 # aside (側邊欄)
 # --------------------------------------
