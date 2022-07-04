@@ -16,11 +16,13 @@ nav#nav
           i.fas.fa-search.fa-fw
           span=' '+_p('search.title')
 
-#darkmodeBt
+ #darkmodeBt
   a.darkmode.switch
     svg.icon(aria-hidden="true")
       use(xlink:href=`#`+ 'icon-deng1')
     if (theme.display_mode == 'dark')
       span#darkmode-switch=' light'
+      i.fas.fa-moon
     else  
       span#darkmode-switch=' dark'
+      i.fas.fa-lightbulb
