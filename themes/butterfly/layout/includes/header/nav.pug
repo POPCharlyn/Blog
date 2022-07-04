@@ -15,12 +15,15 @@ nav#nav
         a.site-page.social-icon.search
           i.fas.fa-search.fa-fw
           span=' '+_p('search.title')
-       #darkmodeBt
+    
+      #darkmodeBt
         a.darkmode.switch
-          i.fas.fa-circle-half-stroke
-        if (theme.display_mode == 'dark')
-          span#darkmode-switch=' 开灯'
-        else  
-          span#darkmode-switch=' 关灯'
+          svg.icon(aria-hidden="true")
+            use(xlink:href=`#`+ 'icon-deng1')
+          if (theme.display_mode == 'dark')
+            span#darkmode-switch=' 开灯'
+          else  
+            span#darkmode-switch=' 关灯'
+      
     
      
