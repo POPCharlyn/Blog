@@ -95,7 +95,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: false
+index_img: transparent
 # https://ik.imagekit.io/nicexl/Wallpaper/032e8dcd231cd58f95c1810d66b2ad7f_Ycgj8Wymp.jpeg
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -858,7 +858,7 @@ inject:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <link rel="stylesheet" href="/css/universe.css">
      - <canvas id="universe"></canvas>
-     - <link rel="stylesheet" href="/css/background.css">
+    # - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/Transparent.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
