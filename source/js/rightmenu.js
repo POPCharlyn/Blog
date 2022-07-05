@@ -1,5 +1,8 @@
-let kk = {};
-kk.showRightMenu = function(isTrue, x=0, y=0){
+// RightMenu 鼠标右键菜单
+let rmf = {};
+
+// 显示右键菜单
+rmf.showRightMenu = function(isTrue, x=0, y=0){
     let $rightMenu = $('#rightMenu');
     $rightMenu.css('top',x+'px').css('left',y+'px');
 
@@ -9,6 +12,7 @@ kk.showRightMenu = function(isTrue, x=0, y=0){
         $rightMenu.hide();
     }
 }
+
 // 昼夜切换
 rmf.switchDarkMode = function(){
     // const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
@@ -30,7 +34,8 @@ rmf.switchDarkMode = function(){
     switchNightMode()
 };
 
-kk.switchReadMode = function(){
+// 阅读模式
+rmf.switchReadMode = function(){
     const $body = document.body
     $body.classList.add('read-mode')
     const newEle = document.createElement('button')
@@ -46,35 +51,37 @@ kk.switchReadMode = function(){
 
     newEle.addEventListener('click', clickFn)
 }
-kk.switchTheme=function(load=false){
-    //空字符串表示butterfly原版主题（即不加载css）
-    //FallGuys.css是我自己的魔改主题，需替换
-    let themes = ['',''];
-    let vTheme = parseInt(localStorage.getItem('visitor-theme'));
-    if(!vTheme){
-        vTheme = load?0:1;
-    }else{
-        vTheme += load?0:1;
-        vTheme%=themes.length;
-    }
-    localStorage.setItem('visitor-theme',vTheme)
-    let themesrc = ''
-    if(themes[vTheme]){
-        themesrc += window.location.origin+'/css/dorakika/'+themes[vTheme];
-    }
-    //css引入时link标签添加属性tag="theme"
-    let themeLink = $(document).find('[tag="theme"]')[0];
-    if(themeLink)themeLink.href = themesrc;
-};
+
+// 主题切换
+// rmf.switchTheme=function(load=false){
+//     //空字符串表示butterfly原版主题（即不加载css）
+//     //FallGuys.css是我自己的魔改主题，需替换
+//     let themes = ['FallGuys.css',''];
+//     let vTheme = parseInt(localStorage.getItem('visitor-theme'));
+//     if(!vTheme){
+//         vTheme = load?0:1;
+//     }else{
+//         vTheme += load?0:1;
+//         vTheme%=themes.length;
+//     }
+//     localStorage.setItem('visitor-theme',vTheme)
+//     let themesrc = ''
+//     if(themes[vTheme]){
+//         themesrc += window.location.origin+'/css/dorakika/'+themes[vTheme];
+//     }
+//     //css引入时link标签添加属性tag="theme"
+//     let themeLink = $(document).find('[tag="theme"]')[0];
+//     if(themeLink)themeLink.href = themesrc;
+// };
 
 //复制选中文字
-kk.copySelect = function(){
+rmf.copySelect = function(){
     document.execCommand('Copy',false,null);
     //这里可以写点东西提示一下 已复制
 }
 
 //回到顶部
-kk.scrollToTop = function(){
+rmf.scrollToTop = function(){
     btf.scrollToDest(0, 500);
 }
 
@@ -82,11 +89,12 @@ kk.scrollToTop = function(){
 if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))){
     window.oncontextmenu = function(event){
         $('.rightMenu-group.hide').hide();
+        //如果有文字选中，则显示 文字选中相关的菜单项
         if(document.getSelection().toString()){
             $('#menu-text').show();
         }
 
-        console.log(event.target);
+        // console.log(event.target);
         let pageX = event.clientX + 10;
         let pageY = event.clientY;
         let rmWidth = $('#rightMenu').width();
@@ -100,10 +108,10 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
 
 
 
-        kk.showRightMenu(true, pageY, pageX);
+        rmf.showRightMenu(true, pageY, pageX);
         return false;
     };
 
-    window.addEventListener('click',function(){kk.showRightMenu(false);});
-//     window.addEventListener('load',function(){kk.switchTheme(true);});
+    window.addEventListener('click',function(){rmf.showRightMenu(false);});
+    // window.addEventListener('load',function(){rmf.switchTheme(true);});
 }
