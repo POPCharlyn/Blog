@@ -144,7 +144,7 @@ electric_clock:
     type: class
     name: sticky_layout
     index: 0
-  temple_html: '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img id="card-clock-loading" src="https://ik.imagekit.io/nicexl/loading_Nxe_XduJU.gif" style="height: 120px; width: 100%;" data-ll-status="loading" class="entered loading"></div></div></div></div></div>'
+  temple_html: '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img id="card-clock-loading" src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-clock/clock/images/weather/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading" class="entered loading"></div></div></div></div></div>'
 # artitalk see https://artitalk.js.org/
 # hexo-butterfly-artitalk-pro
 # see https://akilar.top/posts/f1004b1d/
@@ -179,10 +179,8 @@ artitalk:
     color1: '#49b1f5'
     color2: '#00c4b6'
     atEmoji: {
-    'alus''https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/alus',
-    'qq''https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/qq',
-    'tw-emoji''https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/tw-emoji'}
-    
+      'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
+      'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
 aplayer:
   meting: true
   asset_inject: false
@@ -259,6 +257,3 @@ swiper:
   custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
   custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
 
-nofollow:
-  enable: true
-  field: site

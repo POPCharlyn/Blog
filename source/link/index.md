@@ -5,7 +5,7 @@ date: 2022-5-17
 type: "link"
 ---
 
-{% note warning flat %} 申请友链的请先添加本站添加再申请!!下方评论区进行友链申请 {% endnote %}
+
 
 ````
 - name: Nicexl'blog
