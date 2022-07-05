@@ -868,7 +868,7 @@ inject:
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
      - <script defer src="/js/universe.js"></script>
-     - <script src="/js/sun_moon.js"></script>
+    # - <script src="/js/sun_moon.js"></script>
 
     # - <script src="xxxx"></script>
 
