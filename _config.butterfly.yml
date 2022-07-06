@@ -88,7 +88,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://ik.imagekit.io/nicexl/218a499ce0a3416cfa70acd0041ed7bc_4vDfZMwDF.jpeg
+  img: https://ik.imagekit.io/nicexl/head.jpg
   effect: false
 
 # Disable all banner image
@@ -323,9 +323,9 @@ waline:
   pageview: true
   option:
    emoji: [
-    'https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/alus',
-    'https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/qq',
-    'https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/tw-emoji',
+    'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
+    'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
+    'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
   ]
 
 # utterances
@@ -504,10 +504,10 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: "#efefef"
+background: url(https://ik.imagekit.io/nicexl/Wallpaper/dpj9go_gfaxBOQ1w.png)
 
 # Footer Background
-footer_bg: true
+footer_bg: false
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -587,10 +587,10 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size:
-  code-font-size:
-  font-family:
-  code-font-family:
+  global-font-size: '15px'
+  code-font-size: '15px'
+  font-family: Yuanshen, HarmonyOS
+  code-font-family: 
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -850,24 +850,27 @@ inject:
      - <link rel="stylesheet" href="/css/rightmenu.css">
      - <link rel="stylesheet" href="/css/scroll.css">
      - <link rel="stylesheet" href="/css/pace-theme-flash.css">
-     - <link rel="stylesheet" href="/css/footer.css">
+    # - <link rel="stylesheet" href="/css/footer.css">
      - <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.10.0/dist/av-min.js"></script>
      - <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js"></script>
-     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css">
+     - <link rel="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css">
      - <script src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.0/js/mdui.min.js"></script>
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <link rel="stylesheet" href="/css/universe.css">
      - <canvas id="universe"></canvas>
-     - <link rel="stylesheet" href="/css/xlenco.css">
-     - <article data-clarity-region="article">
     # - <link rel="stylesheet" href="/css/background.css">
-     - <link rel="stylesheet" href="/css/Transparent.css">
+     - <link defer rel="stylesheet" href="/css/Transparent.css">
+     - <link rel="stylesheet" href="/css/xlenco.css">
+     - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="/xxx.css">
+    
   bottom:
      - <script src="/js/rightmenu.js"></script>
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
      - <script defer src="/js/universe.js"></script>
+
+
 
     # - <script src="xxxx"></script>
 

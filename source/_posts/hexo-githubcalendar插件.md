@@ -1,9 +1,11 @@
 ---
 title: 教程：hexo-githubcalendar 插件 1.0-为你的hexo添加首页github贡献图
-date: 2022-06-30 07:15:39
 tags: 教程
-categories:  Github
-cover: https://eus-www.sway-cdn.com/s/UID4jlCINFPBsQFM/images/hDIFrQwzl2nViw?quality=750&allowAnimation=true
+categories: Github
+cover: >-
+  https://eus-www.sway-cdn.com/s/UID4jlCINFPBsQFM/images/hDIFrQwzl2nViw?quality=750&allowAnimation=true
+abbrlink: 221d
+date: 2022-06-30 07:15:39
 ---
 
 ![1](https://ik.imagekit.io/nicexl/text/dgfhrjn_MFJ_84700.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656554940160)

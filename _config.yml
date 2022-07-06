@@ -82,8 +82,10 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
-
+  type: git
+  repository: 
+	      github: git@github.com:xlenco/xlenco.github.io.git
+  branch: master
 
 # hexo-neat
 # md博文压缩
@@ -179,10 +181,8 @@ artitalk:
     color1: '#49b1f5'
     color2: '#00c4b6'
     atEmoji: {
-    'alus''https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/alus',
-    'qq''https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/qq',
-    'tw-emoji''https://vercel-jsdcdn.vercel.app/gh/walinejs/emojis@1.0.0/tw-emoji'}
-    
+      'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
+      'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
 aplayer:
   meting: true
   asset_inject: false

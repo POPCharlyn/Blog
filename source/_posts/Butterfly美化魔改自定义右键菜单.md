@@ -1,10 +1,11 @@
 ---
 title: Butterfly美化魔改：自定义右键菜单
-date: 2022-06-06 16:54:30
 tags: 教程
 categories: Butterfly美化
-cover: https://ik.imagekit.io/nicexl/text/4b4aa91c9481a9e3__AyhR7Wxs.jpg
+cover: 'https://ik.imagekit.io/nicexl/text/4b4aa91c9481a9e3__AyhR7Wxs.jpg'
 swiper_index: 2
+abbrlink: 8d1e
+date: 2022-06-06 16:54:30
 ---
 
 最近发现[DoraKika](https://dorakika.cn/)写的右键菜单，风格简洁，十分的好看。并且支持[fontawesome](https://fontawesome.com/)
