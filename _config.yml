@@ -122,7 +122,7 @@ neat_js:
 githubcalendar:
   enable: true
   enable_page: /
-  user: xilej
+  user: xlenco
   layout:
     type: id
     name: recent-posts
