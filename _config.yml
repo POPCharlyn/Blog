@@ -84,8 +84,8 @@ theme: butterfly
 deploy:
   type: git
   repository: 
-	      github: git@github.com:xlenco/xlenco.github.io.git
-  branch: master
+	      github: git@github.com:xlenco/hexo.git
+  branch: main
 
 # hexo-neat
 # md博文压缩

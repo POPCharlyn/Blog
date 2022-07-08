@@ -1,14 +1,9 @@
-if theme.preloader.enable
-  case theme.preloader.load_style    
-    when 'gear'
-      include ./load_style/gear.pug
-    when 'scarecrow'
-      include ./load_style/scarecrow.pug
-    when 'image'
-      include ./load_style/image.pug
-    when 'pokeball'
-      include ./load_style/pokeball.pug
-    when 'hyperspace'
-      include ./load_style/hyperspace.pug
-    default
-      include ./load_style/default.pug
+#loading-box
+  .loading-left-bg
+  .loading-right-bg
+  .spinner-box
+    .configure-border-1
+      .configure-core
+    .configure-border-2
+      .configure-core
+    .loading-word= _p('loading')

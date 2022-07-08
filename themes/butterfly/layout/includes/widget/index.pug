@@ -13,6 +13,9 @@
       .sticky_layout
         if showToc
           include ./card_post_toc.pug
+        !=partial('includes/widget/card_clock', {}, {cache: true})
+        //- !=partial('includes/widget/card_weibo', {}, {cache: true})
+        //- !=partial('includes/widget/card_history', {}, {cache: true})
         !=partial('includes/widget/card_recent_post', {}, {cache: true})
         !=partial('includes/widget/card_ad', {}, {cache: true})
   else
@@ -24,7 +27,10 @@
     .sticky_layout
       if showToc
         include ./card_post_toc.pug
-      !=partial('includes/widget/card_recent_post', {}, {cache: true})
+      !=partial('includes/widget/card_clock', {}, {cache: true})
+      !=partial('includes/widget/card_weibo', {}, {cache: true})
+      !=partial('includes/widget/card_history', {}, {cache: true})
+      //- !=partial('includes/widget/card_recent_post', {}, {cache: true})
       !=partial('includes/widget/card_ad', {}, {cache: true})
       !=partial('includes/widget/card_newest_comment', {}, {cache: true})
       !=partial('includes/widget/card_categories', {}, {cache: true})
