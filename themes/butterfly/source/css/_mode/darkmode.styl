@@ -1,12 +1,6 @@
 if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
   [data-theme='dark']
-    --main: #5c5c5c
-    --second: #eee
-    --light-text: #ffb449
-    --main-light: rgba(92, 92, 92, .4)
-    --main-shadow: 0 2px 3px 1px rgba(92, 92, 92, .2)
-    --global-bg: #000000
-    // --global-bg: darken(#121212, 2)
+    --global-bg: darken(#121212, 2)
     --font-color: alpha(#FFFFFF, .7)
     --hr-border: alpha(#FFFFFF, .4)
     --hr-before-color: alpha(#FFFFFF, .7)
@@ -124,8 +118,10 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
         fill: alpha(#FFFFFF, .9) !important
 
     // Disqusjs 反代模式下的適配
-    #disqus_thread
+    #disqusjs
       #dsqjs
+        &:hover,
+        &:focus,
         .dsqjs-tab-active,
         .dsqjs-no-comment
           color: alpha(#FFFFFF, .7)

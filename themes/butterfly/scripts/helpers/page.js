@@ -23,7 +23,6 @@ hexo.extend.helper.register('page_description', function () {
 })
 
 hexo.extend.helper.register('cloudTags', function (options = {}) {
-  const theme = hexo.theme.config
   const env = this
   let source = options.source
   const minfontsize = options.minfontsize
@@ -50,7 +49,7 @@ hexo.extend.helper.register('cloudTags', function (options = {}) {
     let style = `font-size: ${parseFloat(size.toFixed(2))}${unit};`
     const color = 'rgb(' + Math.floor(Math.random() * 201) + ', ' + Math.floor(Math.random() * 201) + ', ' + Math.floor(Math.random() * 201) + ')' // 0,0,0 -> 200,200,200
     style += ` color: ${color}`
-    result += `<a href="${env.url_for(tag.path)}" style="${style}">${theme.emoji[tag.name] + [tag.name]}<sup>${tag.length}</sup></a>`
+    result += `<a href="${env.url_for(tag.path)}" style="${style}">${tag.name}</a>`
   })
   return result
 })
@@ -72,7 +71,13 @@ hexo.extend.helper.register('injectHtml', function (data) {
   return result
 })
 
-hexo.extend.helper.register('findArchivesTitle', function (menu) {
+hexo.extend.helper.register('findArchivesTitle', function (page, menu, date) {
+  if (page.year) {
+    const dateStr = page.month ? `${page.year}-${page.month}` : `${page.year}`
+    const date_format = page.month ? hexo.theme.config.aside.card_archives.format : 'YYYY'
+    return date(dateStr, date_format)
+  }
+
   const defaultTitle = this._p('page.archives')
   if (!menu) return defaultTitle
 
