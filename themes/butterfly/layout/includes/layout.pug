@@ -1,5 +1,4 @@
 - var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside' : ''
-- page.aside = is_archive() ? theme.aside.display.archive: is_category() ? theme.aside.display.category : is_tag() ? theme.aside.display.tag : page.aside
 - var hideAside = !theme.aside.enable || page.aside === false ? 'hide-aside' : ''
 - var pageType = is_post() ? 'post' : 'page'
 
@@ -9,7 +8,8 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
     include ./head.pug
   body
     if theme.preloader.enable
-      !=partial('includes/loading/loading', {}, {cache: true})
+    !=partial('includes/loading/loading', {}, {cache: true})
+   
 
     if theme.background
       #web_bg
@@ -45,4 +45,5 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
 
     include ./rightside.pug
     !=partial('includes/third-party/search/index', {}, {cache: true})
+    !=partial('includes/dorakika/rightmenu',{}, {cache:true})
     include ./additional-js.pug
