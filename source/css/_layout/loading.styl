@@ -7,5 +7,9 @@ if hexo-config('preloader.enable')
     @import './_load_style/triangles'
   else if hexo-config('preloader.load_style') == 'image'
     @import './_load_style/image'
+  else if hexo-config('preloader.load_style') == 'hyperspace'
+    @import './_load_style/hyperspace'
+  else if hexo-config('preloader.load_style') == 'pokeball'
+    @import './_load_style/pokeball'
   else
     @import './_load_style/default'
