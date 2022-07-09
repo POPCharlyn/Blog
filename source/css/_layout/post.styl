@@ -1,10 +1,11 @@
 beautify()
-  headStyle(fontsize)
+  headStyle(fontsize, text)
     padding-left: unit(fontsize + 12, 'px')
 
     &:before
       margin-left: unit((-(fontsize + 6)), 'px')
       font-size: unit(fontsize, 'px')
+      content: '\f1dc' + text
 
     &:hover
       padding-left: unit(fontsize + 18, 'px')
@@ -31,22 +32,22 @@ beautify()
         color: $light-blue
 
   h1
-    headStyle(20)
+    headStyle(20, '₁')
 
   h2
-    headStyle(18)
+    headStyle(18, '₂')
 
   h3
-    headStyle(16)
+    headStyle(16, '₃')
 
   h4
-    headStyle(14)
+    headStyle(14, '₄')
 
   h5
-    headStyle(12)
+    headStyle(12, '₅')
 
   h6
-    headStyle(12)
+    headStyle(12, '₆')
 
   ol,
   ul
@@ -193,38 +194,49 @@ beautify()
           line-height: w
 
   .post-copyright
+    color: var(--second);
     position: relative
     margin: 40px 0 10px
     padding: 10px 16px
+    overflow: hidden
+    border-radius: 12px !important
+    background-color: var(--main)
+    box-shadow: var(--main-shadow)
     border: 1px solid var(--light-grey)
     transition: box-shadow .3s ease-in-out
 
     &:before
       @extend .fontawesomeIcon
       position: absolute
-      top: 2px
-      right: 12px
-      color: $theme-color
-      content: '\f1f9'
-      font-size: 1.3em
+      right: -30px
+      top: -110px
+      content: '\f25e'
+      font-size: 180px
+      font-family: 'Font Awesome 5 Brands'
+      opacity: .3
+      filter: blur(1px)
 
-    &:hover
-      box-shadow: 0 0 8px 0 rgba(232, 237, 250, .6), 0 2px 4px 0 rgba(232, 237, 250, .5)
+  .post-copyright__title
+    color: var(--second)
+    font-size: 1.4em
+    font-weight: bold
+  
+  .post-copyright__url
+    opacity: .6
 
-    .post-copyright
-      &-meta
-        color: $light-blue
-        font-weight: bold
+    a
+      color: var(--second)
 
-      &-info
-        padding-left: 6px
+  .post-copyright__cc
+    a
+      color: var(--second)
+      border-radius: 8px
+      padding: .2rem
+      font-weight: bold
 
-        a
-          text-decoration: underline
-          word-break: break-word
-
-          &:hover
-            text-decoration: none
+      &:hover
+        color: var(--main)
+        background: var(--second)
 
   .post-outdate-notice
     position: relative

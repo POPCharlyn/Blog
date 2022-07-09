@@ -503,8 +503,8 @@ tag_ui: # 留空或 index
 
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
-# The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://ik.imagekit.io/nicexl/Wallpaper/dpj9go_gfaxBOQ1w.png)
+# The formal of image: url(http://xxxxx.com/xxx.jpg)
+background: url(https://ik.imagekit.io/nicexl/Wallpaper/9ed26edc76d84416_oCKE75tMh.png)
 
 # Footer Background
 footer_bg: false
@@ -850,17 +850,12 @@ inject:
      - <link rel="stylesheet" href="/css/rightmenu.css">
      - <link rel="stylesheet" href="/css/scroll.css">
      - <link rel="stylesheet" href="/css/pace-theme-flash.css">
-    # - <link rel="stylesheet" href="/css/footer.css">
      - <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.10.0/dist/av-min.js"></script>
      - <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js"></script>
      - <link rel="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css">
      - <script src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.0/js/mdui.min.js"></script>
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
-     - <link rel="stylesheet" href="/css/universe.css">
      - <canvas id="universe"></canvas>
-    # - <link rel="stylesheet" href="/css/background.css">
-     - <link defer rel="stylesheet" href="/css/Transparent.css">
-     - <link rel="stylesheet" href="/css/xlenco.css">
      - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="/xxx.css">
     
@@ -869,6 +864,7 @@ inject:
      - <script src="/js/FunnyTitle.js"></script>
      - <script src="/js/pace.min.js"></script>
      - <script defer src="/js/universe.js"></script>
+     - <script src="/js/hideMobileSidebar.js"></script>
 
 
 
