@@ -108,7 +108,7 @@ button {
 
 /* 版块显隐修改 */
 #hidden_element{
-  visibility: hidden;
+  display: none!important;
 }
 
 /* 背景宇宙星光  */
