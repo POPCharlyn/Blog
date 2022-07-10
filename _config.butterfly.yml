@@ -861,7 +861,7 @@ inject:
     
   bottom:
      - <script src="/js/rightmenu.js"></script>
-     - <script src="/js/FunnyTitle.js"></script>
+     - <script defer src="/js/custom.js"></script>
      - <script src="/js/pace.min.js"></script>
      - <script defer src="/js/universe.js"></script>
      - <script src="/js/hideMobileSidebar.js"></script>
