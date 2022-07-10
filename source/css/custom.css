@@ -108,7 +108,7 @@ button {
 
 /* 版块显隐修改 */
 #hidden_element{
-  display: none!important;
+  visibility: hidden;
 }
 
 /* 背景宇宙星光  */
@@ -126,3 +126,31 @@ button {
   pointer-events: none;
   z-index: -1;
 }
+/* 夜间模式  */
+[data-theme="dark"]
+  #aside-content .card-widget{
+      background: rgba(0, 0, 0, 0.5)!important;
+    }
+[data-theme="dark"]
+  div#post{
+    background: rgba(0, 0, 0, 0.5)!important;
+    }
+/* 阅读模式  */    
+.read-mode #aside-content .card-widget{
+      background: rgba(158, 204, 171, 0.5)!important;
+    }
+.read-mode div#post{
+    background: rgba(158, 204, 171, 0.5)!important;
+    }
+ 
+/* 夜间模式下的阅读模式  */     
+[data-theme="dark"]
+  .read-mode #aside-content .card-widget{
+        background: rgba(0, 0, 0, 0.5)!important;
+        color: #ffffff;
+      }
+[data-theme="dark"]  
+  .read-mode div#post{
+      background: rgba(0, 0, 0, 0.5)!important;
+      color: #ffffff;
+      }
