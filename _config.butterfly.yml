@@ -3,15 +3,15 @@
 # --------------------------------------
 
 menu:
-  文章 || fas fa-book ||hide:
+  文章：/ || fas fa-book ||hide:
     归档: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
     时间轴: /archives/ || fas fa-archive
     随便看看: /random/ || fas fa-shoe-prints
-  社交  || fas fa-bars ||hide:
+  社交：/ || fas fa-bars ||hide:
     友链: /link/ || fas fa-link
     说说: /artitalk/ || fas fa-comment
-  娱乐  || fas fa-cookie-bite ||hide:
+  娱乐：/ || fas fa-cookie-bite ||hide:
     音乐: /music/  ||  fas fa-music
     YesPlayMusic : https://musicial.vercel.app/ || fas fa-music
     解压小游戏 : https://mikutapmusic.vercel.app/ || fas fa-gamepad
