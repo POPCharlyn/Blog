@@ -1,12 +1,12 @@
 ---
 title: butterfly替换jsdelivr cdn链接教程
 categories: 教程
-cover: >-
-  https://ik.imagekit.io/nicexl/text/a6fec42e882111ebb6edd017c2d2eca2_5BRrJR1IC.jpg
-tags: cdn
+cover: >-https://ik.imagekit.io/nicexl/text/a6fec42e882111ebb6edd017c2d2eca2_5BRrJR1IC.jpg
+tags: 笔记
 abbrlink: '5415'
 date: 2022-05-28 20:21:46
 ---
+
 最近jsdelivr凉了，国内不少博客都出现了无法访问或访问慢的问题。下面介绍一些jsdelivr的替换链接。
 
 #### 替换方式
@@ -81,3 +81,4 @@ https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/medium-zoom/1.0.6/medium-zoom.m
 ```
 https://npm.elemecdn.com/js-heo@1.0.6/translate/tw_cn.js
 ```
+
