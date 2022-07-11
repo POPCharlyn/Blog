@@ -144,6 +144,6 @@ button {
     }
  
 [data-theme="dark"]
-.recent-post-item {
+#recent-posts > .recent-post-item{ 
     background: rgba(0,0,0,0.6)!important;
 }
