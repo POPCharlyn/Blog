@@ -1,6 +1,6 @@
 ---
 title: Markdown语法全面详解
-tags: 教程
+tags: 笔记
 categories: Markdown
 cover: 'https://ik.imagekit.io/nicexl/text/386_qSCoLCgmI.jpeg'
 swiper_index: 3
