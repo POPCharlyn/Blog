@@ -2,7 +2,7 @@
 title: Repilt | 白嫖指南
 date: 2022-07-11 17:28:30
 tags: 教程
-categories: Butterfly美化
+categories: 杂项
 cover: https://bing-api.xlenco.eu.org/
 ---
 
