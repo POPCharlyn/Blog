@@ -15,6 +15,22 @@ cover: https://bing-api.xlenco.eu.org/
 #### 准备
 
 注册登录 [Replit](https://replit.com/) 并创建教育 Team（私有仓库）。
+![](https://ik.imagekit.io/nicexl/text/replit.com.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1657535838371)
 
 #### 开始
+
+###### 在Repilt中部署Alist
+
+[🗂️ Alist演示站 (nn.ci)](https://alist.nn.ci/)
+###### 个人版
+
+<a href="https://repl.it/github/xlenco/alist-build-on-replit">
+<img alt="Run on Repl.it" src="https://repl.it/badge/github/xilej/alist-build-on-replit" style="height: 40px; width: 190px;" />
+</a>
+
+###### 教育部
+
+1.在Repilt中新建Bash语言项目
+![](https://ik.imagekit.io/nicexl/text/343779.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1657536161860)
+
 
