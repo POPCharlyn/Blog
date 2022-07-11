@@ -1,7 +1,6 @@
 ---
 title: butterfly替换jsdelivr cdn链接教程
-categories: 教程
-cover: >-https://ik.imagekit.io/nicexl/text/a6fec42e882111ebb6edd017c2d2eca2_5BRrJR1IC.jpg
+categories: 杂项cover: >-https://ik.imagekit.io/nicexl/text/a6fec42e882111ebb6edd017c2d2eca2_5BRrJR1IC.jpg
 tags: 笔记
 abbrlink: '5415'
 date: 2022-05-28 20:21:46
