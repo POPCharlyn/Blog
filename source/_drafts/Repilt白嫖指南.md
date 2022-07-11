@@ -18,5 +18,3 @@ cover: https://bing-api.xlenco.eu.org/
 
 #### 开始
 
-
-
