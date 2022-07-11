@@ -1,7 +1,13 @@
 if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
   [data-theme='dark']
-    --global-bg: darken(#121212, 2)
-    --font-color: alpha(#1f1f1f, .7)
+    --main: #5c5c5c
+    --second: #eee
+    --light-text: #ffb449
+    --main-light: rgba(92, 92, 92, .4)
+    --main-shadow: 0 2px 3px 1px rgba(92, 92, 92, .2)
+    --global-bg: #000000
+    // --global-bg: darken(#121212, 2)
+    --font-color: alpha(#FFFFFF, .7)
     --hr-border: alpha(#FFFFFF, .4)
     --hr-before-color: alpha(#FFFFFF, .7)
     --search-bg: #121212
@@ -14,7 +20,7 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
     --tab-botton-color: alpha(#FFFFFF, .7)
     --tab-button-hover-bg: lighten(#121212, 15)
     --tab-button-active-bg: #121212
-    --card-bg: #FFFFFF
+    --card-bg: #121212
     --sidebar-bg: #121212
     --btn-hover-color: lighten(#121212, 40)
     --btn-color: alpha(#FFFFFF, .7)
@@ -23,7 +29,7 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
     --light-grey: alpha(#FFFFFF, .7)
     --dark-grey: alpha(#FFFFFF, .2)
     --white: alpha(#FFFFFF, .9)
-    --text-highlight-color: alpha(#1f1f1f, .9)
+    --text-highlight-color: alpha(#FFFFFF, .9)
     --blockquote-color: alpha(#FFFFFF, .7)
     --blockquote-bg: lighten(#121212, 10)
     --reward-pop: lighten(#121212, 10)
@@ -118,10 +124,8 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
         fill: alpha(#FFFFFF, .9) !important
 
     // Disqusjs 反代模式下的適配
-    #disqusjs
+    #disqus_thread
       #dsqjs
-        &:hover,
-        &:focus,
         .dsqjs-tab-active,
         .dsqjs-no-comment
           color: alpha(#FFFFFF, .7)
@@ -148,11 +152,3 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
     #card-toc
       +maxWidth900()
         background: lighten(#121212, 5)
-    #web_bg {
-  /* 背景图像的地址（url括号里）  */
-  background: url(https://sway.office.com/s/UID4jlCINFPBsQFM/images/5ZIct8AUbXJfQu);
-  /* 背景图像不重复 */
-  background-repeat: no-repeat;
-  /* 背景图像大小 */
-  background-size: cover;
-}
