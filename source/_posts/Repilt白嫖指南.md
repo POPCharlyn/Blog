@@ -3,7 +3,7 @@ title: Repilt | 白嫖指南
 date: 2022-07-11 17:28:30
 tags: 教程
 categories: 杂项
-cover: https://bing-api.xlenco.eu.org/
+cover: https://cn.bing.com/th?id=OHR.BarcelonaPop_ZH-CN3687855585_1920x1080.jpg&rf=LaDigue_1920x1080.jpg
 ---
 
 前一阵子捣鼓了 [Replit](https://replit.com/)
@@ -40,8 +40,6 @@ git clone https://github.com/xlenco/alist-build-on-replit && mv -b alist-build-o
 ```
 
 当加载完 Loading Nix environment... 后点击绿色 ▶ Run
-
-
 
 ###### 在Repilt中部署OneMangaer
 
