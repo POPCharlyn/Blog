@@ -13,7 +13,7 @@ menu:
     说说: /artitalk/ || fas fa-comment
   娱乐 || fas fa-cookie-bite ||hide:
     音乐: /music/  ||  fas fa-music
-    壁纸: /gallery/ || fas fa-images
+    壁纸: /Gallery/ || fas fa-images
     YesPlayMusic : https://musicial.vercel.app/ || fas fa-music
     解压小游戏 : https://mikutapmusic.vercel.app/ || fas fa-gamepad
 
