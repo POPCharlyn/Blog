@@ -1,5 +1,5 @@
 ---
-title: 壁紙
+title: 壁纸
 date: 2022-7-11 15:04:35
 top_img: https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png
 type: galleryGroup
