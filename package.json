@@ -41,6 +41,7 @@
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-algoliasearch": "^1.0.0",
     "hexo-butterfly-categories-card": "^1.0.0",
-    "hexo-butterfly-swiper": "^1.0.1"
+    "hexo-butterfly-swiper": "^1.0.1",
+    "hexo-butterfly-tag-plugins-plus": "^1.0.17"
   }
 }
