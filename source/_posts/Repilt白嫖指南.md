@@ -112,6 +112,6 @@ redis-server redis.conf --port 1533
 
 #### 结尾
 
-{% link 可以在Replit中部署的项目, https://github.com/stars/xlenco/lists/%E5%8F%AF%E4%BB%A5%E5%9C%A8replit%E9%83%A8%E7%BD%B2%E7%9A%84%E9%A1%B9%E7%9B%AE , %}
+{% link 糖果屋教程贴, https://akilar.top/posts/615e2dec/, https://cdn.jsdelivr.net/gh/Akilarlxh/akilarlxh.github.io/img/siteicon/favicon.ico %}
 有什么问题或者你遇到其他的可以在Replit中部署的项目可以在下方评论中留言
 
