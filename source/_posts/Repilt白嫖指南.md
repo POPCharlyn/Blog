@@ -102,7 +102,7 @@ redis-server redis.conf --port 1533
 
 ##### 常见问题
 
-* Alistr如何查看密码:  `./alist -password`
+* Alist如何查看密码:  `./alist -password`
 * 如果忘Repilt中上传文件时出现下面内容，点红色的Replace
   ![](https://i.imgtg.com/2022/07/14/eEZiC.jpg)
   其实就是询问你是否要覆盖.replit文件。如果不小心点的是Cancel
