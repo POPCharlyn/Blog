@@ -8,7 +8,7 @@ type: "link"
 
 
 ````
-- name: Nicexl'blog
+- name: xlenco'Blog
   link: https://nicexl.vercel.app
   avatar: https://ik.imagekit.io/nicexl/218a499ce0a3416cfa70acd0041ed7bc_4vDfZMwDF.jpeg
   descr: 最好的地方是没去过的地方，最好的时光，是回不来的时光。而在Xlenco'Blog 就是如此!
