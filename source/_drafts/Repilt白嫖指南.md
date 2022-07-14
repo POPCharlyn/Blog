@@ -57,7 +57,7 @@ git clone https://github.com/xlenco/alist-build-on-replit && mv -b alist-build-o
 这个稍微有点复杂，不过下面会手把手的教学。
 
 1. 下载下面项目源码
-   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=yj126&repo=github-readme-stats&theme=vue)](https://github.com/yj126/github-readme-stats)
+   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=xlenco&repo=onedrive-vercel-index-replit&theme=vue)](https://github.com/xlenco/onedrive-vercel-index-replit)
 
 
 
