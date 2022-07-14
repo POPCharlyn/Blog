@@ -97,7 +97,8 @@ pnpm start &
 redis-server redis.conf --port 1533
 ```
 
-然后就没有然后了，可以宣告大功告成。
+然后就没有然后了，可以宣告大功告成了
+点击绿色 ▶ Run就跑起来
 
 ##### 常见问题
 
@@ -105,11 +106,13 @@ redis-server redis.conf --port 1533
 * 如果忘Repilt中上传文件时出现下面内容，点红色的Replace
   ![](https://i.imgtg.com/2022/07/14/eEZiC.jpg)
   其实就是询问你是否要覆盖.replit文件。如果不小心点的是Cancel
-  可以
+  可以如下图操作显示出.replit文件，然后用github库里的.replit文件内容替换掉Repilt里的.replit内容
+  ![](https://i.imgtg.com/2022/07/14/eEtAp.jpg)
 
-##### 在Replit Shell内输入后回车即可查看
 
 #### 结尾
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=xlenco&repo=onedrive-vercel-index-replit&theme=vue)](https://github.com/xlenco/onedrive-vercel-index-replit)
 
 其他内容将会在后面继续更新
 
