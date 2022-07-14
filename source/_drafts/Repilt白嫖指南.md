@@ -54,8 +54,6 @@ git clone https://github.com/xlenco/alist-build-on-replit && mv -b alist-build-o
 
 ##### 在Repilt中部署onedrive-vercel-index
 
-
-
 这个稍微有点复杂，不过下面会手把手的教学。
 
 1. 下载下面项目源码,并在Repilt新建node.js项目
@@ -104,13 +102,14 @@ redis-server redis.conf --port 1533
 ##### 常见问题
 
 * Alistr如何查看密码:  `./alist -password`
-* 
+* 如果忘Repilt中上传文件时出现下面内容，点红色的Replace
+  ![](https://i.imgtg.com/2022/07/14/eEZiC.jpg)
+  其实就是询问你是否要覆盖.replit文件。如果不小心点的是Cancel
+  可以
 
 ##### 在Replit Shell内输入后回车即可查看
 
 #### 结尾
 
 其他内容将会在后面继续更新
-
-
 
