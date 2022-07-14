@@ -2,7 +2,6 @@
 title: 猫羽雫 （ ねこはしずく ）
 date: 2022-7-14 14:02:35
 top_img: https://panta.eu.org/onedrive/%F0%9F%96%BC%EF%B8%8F%E5%9B%BE%E7%89%87/%E7%8C%AB%E7%BE%BD%E9%9B%AB/-41de0709c4485d18.jpg
-type: galleryGroup
 ---
 
 {% gallery %}
