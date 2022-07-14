@@ -57,7 +57,7 @@ git clone https://github.com/xlenco/alist-build-on-replit && mv -b alist-build-o
 这个稍微有点复杂，不过下面会手把手的教学。
 
 1. 下载下面项目源码,并在Repilt新建node.js项目
-   ![](https://i.imgtg.com/2022/07/14/eEeAa.jpg)
+![](https://i.imgtg.com/2022/07/14/eEeAa.jpg)
    [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=xlenco&repo=onedrive-vercel-index-replit&theme=vue)](https://github.com/xlenco/onedrive-vercel-index-replit)
    
    <a href="https://repl.it/github/xlenco/onedrive-vercel-index-replit">
