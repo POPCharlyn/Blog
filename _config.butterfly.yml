@@ -583,7 +583,7 @@ display_mode: light
 # Beautify (美化頁面顯示)
 beautify:
   enable: true
-  field: site # site/post
+  field: post # site/post
   title-prefix-icon: '\f197'
   title-prefix-icon-color: '#F47466'
 
@@ -820,7 +820,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: true
+  enable: false
   field: post # site/post
   placeholder: https://ik.imagekit.io/nicexl/coding.gif
   blur: true
