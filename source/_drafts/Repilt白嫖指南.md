@@ -58,8 +58,10 @@ git clone https://github.com/xlenco/alist-build-on-replit && mv -b alist-build-o
 
 1. 下载下面项目源码
    [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=xlenco&repo=onedrive-vercel-index-replit&theme=vue)](https://github.com/xlenco/onedrive-vercel-index-replit)
-
-
+2. 在🔒中添加如下变量
+   key：REDIS_URL
+   value：redis://:@127.0.0.1:1533
+   
 
 ##### 常见问题
 
