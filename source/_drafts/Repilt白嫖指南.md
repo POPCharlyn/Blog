@@ -66,16 +66,47 @@ git clone https://github.com/xlenco/alist-build-on-replit && mv -b alist-build-o
 
 <img alt="Run on Repl.it" src="https://repl.it/badge/github/xlenco/onedrive-vercel-index-replit" style="height: 40px; width: 190px;" />
 </a>
-此项如果是个人版的Repilt用户可以直接点击，而使用教育版的只能老老实实下载后上次上去了。记得语言要选为node.js
+↑此项如果是个人版的Repilt用户可以直接点击，而使用教育版的只能老老实实下载后上次上去了。记得语言要选为node.js
+![](https://i.imgtg.com/2022/07/14/eErQS.jpg)
 [分流下载密码：abcd](https://url66.ctfile.com/f/30717266-614561272-1d7d9a?p=abcd)
 由于github在国内不是太稳定，这里博主特意在网盘里放了一份，方便大不开github的小白
 
-2.在Repilt
+2.点击Repilt的左侧🔓，并添加以下变量
+![](https://i.imgtg.com/2022/07/14/eEACN.jpg)
+key：
+`REDIS_URL`
+value：
+`redis://:@127.0.0.1:1533`
+
+3.点击绿色 ▶ Run
+耐心等待加载完毕
+此时根目录会出现onedrive文件夹
+在onedrive文件夹内新建`redis.conf`文件
+内容为下面所示
+
+```
+bind 127.0.0.1 -::1
+```
+
+4.把main.sh改为下面内容
+
+```
+# git clone https://github.com/spencerwooo/onedrive-vercel-index.git onedrive
+cd onedrive
+# pnpm install
+pnpm build
+pnpm start &
+redis-server redis.conf --port 1533
+```
+
+然后就没有然后了，可以宣告大功告成。
 
 ##### 常见问题
 
 * Alistr如何查看密码:  `./alist -password`
-  ##### 在Replit Shell内输入后回车即可查看
+* 
+
+##### 在Replit Shell内输入后回车即可查看
 
 #### 结尾
 
