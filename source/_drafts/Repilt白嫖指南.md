@@ -112,7 +112,6 @@ redis-server redis.conf --port 1533
 
 #### 结尾
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=xlenco&repo=onedrive-vercel-index-replit&theme=vue)](https://github.com/xlenco/onedrive-vercel-index-replit)
-
-其他内容将会在后面继续更新
+{% link 可以在Replit中部署的项目, https://github.com/stars/xlenco/lists/%E5%8F%AF%E4%BB%A5%E5%9C%A8replit%E9%83%A8%E7%BD%B2%E7%9A%84%E9%A1%B9%E7%9B%AE , https://github.com/favicon.ico %}
+有什么问题或者你遇到其他的可以在Replit中部署的项目可以在下方评论中留言
 
