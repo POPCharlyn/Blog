@@ -55,3 +55,4 @@ jobs:
         git add .
         git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By Github Actions"
         git push --force --quiet "https://${{ github.repository_owner }}:${{ secrets.GITHUBTOKEN }}@github.com/${{ github.repository_owner }}/${{ github.repository_owner }}.github.io.git" master:master
+        git push --force --quiet "https://${{ github.repository_owner }}:${{ secrets.GITEETOKEN }}@gitee.com/${{ github.repository_owner }}/${{ github.repository_owner }}.git" master:master
