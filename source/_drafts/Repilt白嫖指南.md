@@ -54,16 +54,22 @@ git clone https://github.com/xlenco/alist-build-on-replit && mv -b alist-build-o
 
 ##### 在Repilt中部署onedrive-vercel-index
 
+
+
 这个稍微有点复杂，不过下面会手把手的教学。
 
 1. 下载下面项目源码
    [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=xlenco&repo=onedrive-vercel-index-replit&theme=vue)](https://github.com/xlenco/onedrive-vercel-index-replit)
-2. 在🔒中添加如下变量
-   key：REDIS_URL
-   value：redis://:@127.0.0.1:1533
    
+   <a href="https://repl.it/github/xlenco/onedrive-vercel-index-replit">
 
-##### 常见问题
+<img alt="Run on Repl.it" src="https://repl.it/badge/github/xlenco/onedrive-vercel-index-replit" style="height: 40px; width: 190px;" />
+</a>
+此项方便Repilt个人版用户
+[分流下载密码：abcd](https://url66.ctfile.com/f/30717266-614561272-1d7d9a?p=abcd)
+由于github在国内不是太稳定，
+
+
 
 * Alistr如何查看密码:
   `./alist -password`
@@ -72,4 +78,6 @@ git clone https://github.com/xlenco/alist-build-on-replit && mv -b alist-build-o
 #### 结尾
 
 其他内容将会在后面继续更新
+
+
 
