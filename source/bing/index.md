@@ -4,9 +4,7 @@ top_img: https://bing.icodeq.com
 aside: false
 date: 2022-07-20 02:52:04
 ---
-
 > If the date you see is 2 days ago, press `Ctrl + F5` to force a refresh, Maybe because I have `workbox` enabled.
-
 # Bing Wallpaper
 <!--2022-07-20 02:52:43-->
 ![人类迈出的一大步](https://www.bing.com/th?id=OHR.MoonPhases_ZH-CN3779272016_UHD.jpg&w=1920) Today: [人类迈出的一大步](https://www.bing.com/th?id=OHR.MoonPhases_ZH-CN3779272016_UHD.jpg)
