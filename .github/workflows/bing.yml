@@ -27,8 +27,6 @@ jobs:
         run: |
           pip install -r ./tools/requirements.txt
       - name: 'GET BING'
-        env:
-          PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           python ./tools/bing.py
       - name: Commit ALL IN ONE files
