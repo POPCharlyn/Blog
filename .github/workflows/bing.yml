@@ -26,15 +26,18 @@ jobs:
       - name: 'Install requirements'
         run: |
           pip install -r ./tools/requirements.txt
+
       - name: 'GET BING'
         run: |
           python ./tools/bing.py
+
       - name: Commit ALL IN ONE files
         run: |
           git config --local user.email "1043865083@qq.com"
           git config --local user.name "xlenco"
           git add .
           git commit -m "GitHub Actions Crawler ALL IN ONE at $(date +'%Y-%m-%d %H:%M:%S')"
+
       - name: Push changes
         uses:  ad-m/github-push-action@master
         with:
