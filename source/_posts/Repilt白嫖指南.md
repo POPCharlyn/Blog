@@ -60,10 +60,9 @@ git clone https://github.com/xlenco/alist-build-on-replit && mv -b alist-build-o
 ![](https://i.imgtg.com/2022/07/14/eEeAa.jpg)
    [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=xlenco&repo=onedrive-vercel-index-replit&theme=vue)](https://github.com/xlenco/onedrive-vercel-index-replit)
    
-   <a href="https://repl.it/github/xlenco/onedrive-vercel-index-replit">
-
+<a href="https://repl.it/github/xlenco/onedrive-vercel-index-replit">
 <img alt="Run on Repl.it" src="https://repl.it/badge/github/xlenco/onedrive-vercel-index-replit" style="height: 40px; width: 190px;" />
-</a>
+
 ↑此项如果是个人版的Repilt用户可以直接点击，而使用教育版的只能老老实实下载后上次上去了。记得语言要选为node.js
 ![](https://i.imgtg.com/2022/07/14/eErQS.jpg)
 [分流下载密码：abcd](https://url66.ctfile.com/f/30717266-614561272-1d7d9a?p=abcd)
