@@ -1,35 +1,22 @@
-<script>if (!!navigator.serviceWorker) {
+<script>
+if (!!navigator.serviceWorker) {
+    if (localStorage.getItem('cw_installed') !== 'true') {window.stop();}
     navigator.serviceWorker.register('/cw.js?t=' + new Date().getTime()).then(async (registration) => {
         if (localStorage.getItem('cw_installed') !== 'true') {
-            const conf = () => {
-                console.log('[CW] Installing Success,Configuring...');
-                fetch('/cw-cgi/api?type=config')
-                    .then(res => res.text())
-                    .then(text => {
-                        if (text === 'ok') {
-                            console.log('[CW] Installing Success,Configuring Success,Starting...');
+                setInterval(() => {
+                    fetch('/cw-cgi/api?type=config').then(res => res.text()).then(res => {
+                        if(res === 'ok') {
                             localStorage.setItem('cw_installed', 'true');
-                            //如果你不希望重载页面，请移除下面五行
-                            fetch(window.location.href).then(res => res.text()).then(text => {
-                                document.open()
-                                document.write(text);
-                                document.close();
-                            });
-                        } else {
-                            console.log('[CW] Installing Success,Configuring Failed,Sleeping 200ms...');
-                            setTimeout(() => {
-                                conf()
-                            }, 200);
+                            console.log('[CW] Installation is completed.Reloading...');
+                            location.reload()
                         }
                     }).catch(err => {
-                        console.log('[CW] Installing Success,Configuring Error,Exiting...');
-                    });
-            }
-            setTimeout(() => {
-                conf()
-            }, 50);
+                        console.warn('[CW] Installation may not be complete, try again later.')
+                    })
+                }, 100);
         }
     }).catch(err => {
         console.error('[CW] Installing Failed,Error: ' + err.message);
-    });
-} else { console.error('[CW] Installing Failed,Error: Browser not support service worker'); }</script>
+    })
+} else { console.error('[CW] Installing Failed,Error: Browser not support service worker'); }
+</script>
