@@ -860,6 +860,7 @@ inject:
      - <script src="https://npm.elemecdn.com/jquery@3.2.1/dist/jquery.min.js"></script>
      - <canvas id="universe"></canvas>
      - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
+     - <script defer src="/js/ClientWorker.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
     
   bottom:
