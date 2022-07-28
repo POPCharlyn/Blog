@@ -861,7 +861,9 @@ inject:
      - <canvas id="universe"></canvas>
      - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
      - <script defer src="/js/ClientWorker.js"></script>
-    # - <link rel="stylesheet" href="/xxx.css">
+     - <link rel="stylesheet" href="/css/checkbox.css">
+     - <link rel="stylesheet" href="/css/note.css">
+    # - <link rel="stylesheet" href="/css/xxx.css">
     
   bottom:
      - <script src="/js/rightmenu.js"></script>
