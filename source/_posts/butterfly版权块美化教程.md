@@ -3,6 +3,7 @@ title: butterfly版权块美化教程
 date: 2022-07-28 11:51:20
 tags: 教程
 categories: Butterfly
+cover: https://ik.imagekit.io/nicexl/Wallpaper/0f11ebb6edd017c2d2eca2_UCIfkba8h.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657163229033
 ---
 
 ### 教程
