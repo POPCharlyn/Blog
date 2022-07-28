@@ -9,7 +9,7 @@ cover: https://ik.imagekit.io/nicexl/Wallpaper/0041b89232893f083a57f1_O-g_F8uUk.
 ### ClientWorker
 
 ### 地址
-{% link 官方文档, https://clientworker.js.org  %}
+{% link 官方文档, https://clientworker.js.org, https://clientworker.js.org,  %}
 ## 快速上手
 
 ### 引入 ClientWorker
