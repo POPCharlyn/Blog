@@ -1,0 +1,132 @@
+div.note.red::before {
+  content: "\f054";
+}
+
+div.note.quote {
+  background: #e8f4fd;
+  border-color: #2196f3;
+}
+
+div.note.quote::before {
+  color: #2196f3;
+  content: "\f10d";
+}
+
+div.note.radiation::before {
+  content: "\f7b9";
+}
+
+div.note.bug::before {
+  content: "\f188";
+}
+
+div.note.idea::before {
+  content: "\f0eb";
+}
+
+div.note.link::before {
+  content: "\f0c1";
+}
+
+div.note.paperclip::before {
+  content: "\f0c6";
+}
+
+div.note.todo::before {
+  content: "\f0ae";
+}
+
+div.note.message::before {
+  content: "\f4ad";
+}
+
+div.note.guide::before {
+  content: "\f277";
+}
+
+div.note.download::before {
+  content: "\f019";
+}
+
+div.note.up::before {
+  content: "\f102";
+}
+
+div.note.undo::before {
+  content: "\f2ea";
+}
+
+div.note.play::before {
+  content: "\f144";
+}
+
+div.note.message::before {
+  content: '\f4ad';
+}
+
+div.note.clear {
+  background: none;
+  border-color: none;
+}
+
+div.note.light {
+  background: #f6f6f6;
+  border-color: #aaa;
+}
+
+div.note.light::before {
+  color: #aaa;
+}
+
+div.note.gray {
+  background: #f6f6f6;
+  border-color: #767676;
+}
+
+div.note.gray::before {
+  color: #767676;
+}
+
+div.note.red {
+  background: #feefee;
+  border-color: #fe5f58;
+}
+
+div.note.red::before {
+  color: #fe5f58;
+}
+
+div.note.yellow {
+  background: #fff8e9;
+  border-color: #ffbd2b;
+}
+
+div.note.yellow::before {
+  color: #ffbd2b;
+}
+
+div.note.green {
+  background: #ebf9ed;
+  border-color: #3dc550;
+}
+
+div.note.green::before {
+  color: #3dc550;
+}
+
+div.note.cyan::before {
+  color: #1bcdfc;
+}
+
+div.note.blue::before {
+  color: #2196f3;
+}
+
+div.note.blue {
+  background: #e8f4fd;
+  border-color: #2196f3;
+}
+
+[data-theme="dark"] .note p{
+  color: #000;
+}
