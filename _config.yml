@@ -289,13 +289,12 @@ catch_rules:
         return:
           body: The GateWay is down!This Page is provided by ClientWorker!
           status: 503
-  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|unpkg\.com)
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm\.elemecdn\.com)
     transform_rules:
       - search: _
         replace:
           - _
-          - https://unpkg.zhimg.com #回源已关闭，原缓存有效
-          - https://npm.elemecdn.com #2022/7/12 确认关闭回源，缓存有效
+          - https://unpkg.com #回源已关闭，原缓存有效
           - https://code.bdstatic.com/npm #确认关闭回源，缓存有效
           - https://npm.sourcegcdn.com #滥用封仓库，强制数字版本号
           - https://cdn.bilicdn.tk/npm # 由GamerNoTitle提供的反代，请勿滥用:D
