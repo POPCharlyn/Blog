@@ -863,6 +863,7 @@ inject:
      - <script defer src="/js/ClientWorker.js"></script>
      - <link rel="stylesheet" href="/css/checkbox.css">
      - <link rel="stylesheet" href="/css/note.css">
+     - <link rel="stylesheet" href="/css/link.css">
     # - <link rel="stylesheet" href="/css/xxx.css">
     
   bottom:
