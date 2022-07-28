@@ -3,6 +3,7 @@ title: 在GitHub个人页添加一个有趣的贪吃蛇动画
 date: 2022-07-28 12:07:51
 tags: 教程
 categories: Github
+cover: https://nsso.eu.org/img/a1ebe329-c070-4ba4-a43a-ffb0ebf92d39.gif
 ---
 
 这是我之前在逛 GitHub 发现的有意思的东西，给自己的个人 GitHub 主页添加一个贪吃蛇动画，效果如下：
@@ -57,8 +58,10 @@ jobs:
 由于 README 文档是用 **Markdown** 格式进行编辑，引入 svg 文件需要使用下面这种格式。
 
 ```
-![](https://cdn.jsdelivr.net/gh/xlenco/xlenco@main/assets/github-contribution-grid-snake.svg)
+![](https://cdn.jsdelivr.net/gh/xxx/xxx@main/assets/github-contribution-grid-snake.svg)
 ```
 
-完成以上两步操作，就可以在自己的 GitHub 主页看到这个动画啦，还是很酷 的：
+将xxx改为你的github用户名即可
+
+完成以上两步操作，就可以在自己的 GitHub 主页看到这个动画啦，还是很酷 的
 
