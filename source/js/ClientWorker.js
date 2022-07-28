@@ -36,4 +36,3 @@ if (!!navigator.serviceWorker) {
     });
 } else { console.error('[CW] Installing Failed,Error: Browser not support service worker'); }
 
-
