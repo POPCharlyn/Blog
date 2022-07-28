@@ -9,7 +9,7 @@ catch_rules:
         - search: _ 
           replace: 
           - _
-          - example.com #替換這裡的地址
+          - xlenco.eu.org #替換這裡的地址
           action: fetch
           fetch:
             status: 200
