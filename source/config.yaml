@@ -1,26 +1,45 @@
-name: ClientWorker 
+name: ClientWorker
 catch_rules:
-  - rule: _
-    transform_rules:
-      - search: \#.+
-        searchin: url
-        replace: ''
-      - search: _ 
-        action: fetch
-        fetch:
-          engine: fetch 
-      - search: (^4|^5) 
-        searchin: status 
-        action: return
-        return:
-          body: The GateWay is down!This Page is provided by ClientWorker!
-          status: 503
-  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm\.elemecdn\.com)
-    transform_rules:
-      - search: _
-        replace:
+    - rule: _
+      transform_rules:
+        - search: \#.*
+          replace: ''
+        - search: \?.*
+          replace: '' 
+        - search: _ 
+          replace: 
           - _
-          - https://unpkg.com #回源已关闭，原缓存有效
-          - https://code.bdstatic.com/npm #确认关闭回源，缓存有效
-          - https://npm.sourcegcdn.com #滥用封仓库，强制数字版本号
-          - https://cdn.bilicdn.tk/npm # 由GamerNoTitle提供的反代，请勿滥用:D
+          - example.com #替換這裡的地址
+          action: fetch
+          fetch:
+            status: 200
+            engine: parallel
+            preflight: false
+            timeout: 5000
+            cache:
+              expire: 1000*60*60*2
+              delay: 200
+        - search: (^4|^5) 
+          searchin: status 
+          action: return
+          return:
+            body: The GateWay is down!
+            status: 503
+
+    - rule: ^https:\/\/cdn\.jsdelivr\.net
+      transform_rules:
+        - search: _
+          replace:
+          - _
+          - https://fastly.jsdelivr.net
+          - https://gcore.jsdelivr.net
+          - https://test1.jsdelivr.net
+          action: fetch
+          fetch:
+            status: 200
+            engine: parallel
+            preflight: false
+            timeout: 5000
+            cache:
+              expire: 1000*60*60*24
+              delay: 200
