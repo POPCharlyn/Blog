@@ -26,14 +26,14 @@ catch_rules:
             body: The GateWay is down!
             status: 503
 
-    - rule: ^https:\/\/cdn\.jsdelivr\.net
+    - rule: ^https:\/\/cdn\.jsdelivr\.net\/npm\.elemecdn\.com
       transform_rules:
         - search: _
           replace:
           - _
-          - https://fastly.jsdelivr.net
-          - https://gcore.jsdelivr.net
-          - https://test1.jsdelivr.net
+          - https://unpkg.com
+          - https://npm.sourcegcdn.com
+          - https://cdn.bilicdn.tk/npm
           action: fetch
           fetch:
             status: 200
