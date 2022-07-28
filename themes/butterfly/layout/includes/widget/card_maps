@@ -1,0 +1,7 @@
+.card-widget.card-map
+  .card-content
+    .item-headline
+        i.fa.fa-map-marker(aria-hidden="true")
+        span= _p('访客')
+    a(href=url_for('https://clustrmaps.com/site/1bpl3'))
+        img(src=url_for('//www.clustrmaps.com/map_v2.png?d=jQKRJyPMagiIZBJJjroR7Z9ItbwEaZMx6AlvqSodqPU&cl=ffffff'))
