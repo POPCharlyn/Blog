@@ -271,9 +271,10 @@ tag_plugins:
     anima: https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css #动画标签anima的依赖
     issues: https://cdn.jsdelivr.net/npm/hexo-theme-volantis@latest/source/js/issues.min.js #issues标签依赖
     carousel: https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js
+
 name: ClientWorker 
 catch_rules:
-  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|unpkg\.com)
+  - rule: _
     transform_rules:
       - search: \#.+
         searchin: url
@@ -288,12 +289,14 @@ catch_rules:
         return:
           body: The GateWay is down!This Page is provided by ClientWorker!
           status: 503
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|unpkg\.com)
+    transform_rules:
       - search: _
         replace:
-        - _
-        - https://unpkg.com #回源已关闭，原缓存有效
-        - https://npm.elemecdn.com #2022/7/12 确认关闭回源，缓存有效
-        - https://code.bdstatic.com/npm #确认关闭回源，缓存有效
-        - https://npm.sourcegcdn.com #滥用封仓库，强制数字版本号
-        - https://cdn.bilicdn.tk/npm # 由GamerNoTitle提供的反代，请勿滥用:D
+          - _
+          - https://unpkg.zhimg.com #回源已关闭，原缓存有效
+          - https://npm.elemecdn.com #2022/7/12 确认关闭回源，缓存有效
+          - https://code.bdstatic.com/npm #确认关闭回源，缓存有效
+          - https://npm.sourcegcdn.com #滥用封仓库，强制数字版本号
+          - https://cdn.bilicdn.tk/npm # 由GamerNoTitle提供的反代，请勿滥用:D
 
