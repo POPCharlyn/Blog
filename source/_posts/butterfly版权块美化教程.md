@@ -7,7 +7,7 @@ date: '2022-07-28 11:51:20'
 tags:
 - 教程
 title: butterfly版权块美化教程
-updated: '2022-07-29 10:54:13'
+updated: '2022-07-29 11:05:14'
 ---
 ### 教程
 
@@ -52,11 +52,11 @@ if theme.post_copyright.enable && page.copyright !== false
 
 #### 修改post.styl
 
-打开`ROOT\themes\butterfly\source\css_layout*文件夹`，修改`post.styl`文件
+打开`ROOT\themes\butterfly\source\css_layout文件夹`，修改`post.styl`文件
 
 修改范围：`.post-copyright`至 `.post-outdate-notice`
 
-##### diff模式.
+##### diff模式
 
 ```
 .post-copyright
@@ -205,4 +205,3 @@ inject:
     - <link rel="stylesheet" href="/css/copyright.css">
   bottom:
 ```
-
