@@ -1,30 +1,21 @@
-name: ClientWorker
+name: ClientWorker 
 catch_rules:
-    - rule: _
-      transform_rules:
-        - search: \#.*
-          replace: ''
-        - search: \?.*
-          replace: '' 
-        - search: _ 
-          replace: 
-          - _
-          - xlenco.eu.org #替換這裡的地址
-          action: fetch
-          fetch:
-            status: 200
-            engine: parallel
-            preflight: false
-            timeout: 5000
-            cache:
-              expire: 1000*60*60*2
-              delay: 200
-        - search: (^4|^5) 
-          searchin: status 
-          action: return
-          return:
-            body: The GateWay is down!
-            status: 503
+  - rule: _
+    transform_rules:
+      - search: \#.+
+        searchin: url
+        replace: ''
+      - search: _ 
+        action: fetch
+        fetch:
+          engine: fetch 
+      - search: (^4|^5) 
+        searchin: status 
+        action: return
+        return:
+          body: The GateWay is down!This Page is provided by ClientWorker!
+          status: 503
+
 
     - rule: ^https:\/\/cdn\.jsdelivr\.net\/npm\.elemecdn\.com
       transform_rules:
