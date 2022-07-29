@@ -3,7 +3,7 @@ title: 在GitHub个人页添加一个有趣的贪吃蛇动画
 date: 2022-07-28 12:07:51
 tags: 教程
 categories: Github
-cover: https://i.postimg.cc/59pCgh58/a1ebe329-c070-4ba4-a43a-ffb0ebf92d39.gif
+cover:  https://i.postimg.cc/59pCgh58/a1ebe329-c070-4ba4-a43a-ffb0ebf92d39.gif
 ---
 
 这是我之前在逛 GitHub 发现的有意思的东西，给自己的个人 GitHub 主页添加一个贪吃蛇动画，效果如下：
