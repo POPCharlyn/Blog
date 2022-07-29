@@ -9,7 +9,9 @@ cover: https://ik.imagekit.io/nicexl/Wallpaper/0041b89232893f083a57f1_O-g_F8uUk.
 ### ClientWorker
 
 ### 地址
-{% link 官方文档, https://clientworker.js.org, https://clientworker.js.org,  %}
+
+{% link 官方文档, https://clientworker.js.org, https://clientworker.js.org, https://nsso.eu.org/img/d28b3ba4-df07-4d22-9bfb-8591ea937c22.png %}
+
 ## 快速上手
 
 ### 引入 ClientWorker
@@ -19,7 +21,9 @@ cover: https://ik.imagekit.io/nicexl/Wallpaper/0041b89232893f083a57f1_O-g_F8uUk.
 ```
 importScripts('https://unpkg.com/clientworker')
 ```
- 在 `{blogroot}/source/` 新建 `config.yaml`写入以下内容
+
+在 `{blogroot}/source/` 新建 `config.yaml`写入以下内容
+
 ```
 name: ClientWorker 
 catch_rules:
@@ -39,6 +43,7 @@ catch_rules:
           body: The GateWay is down!This Page is provided by ClientWorker!
           status: 503
 ```
+
 ##### 然后在`{blogroot}/source/`新建`ClientWorker.js`并写入以下配置
 
 ```
@@ -82,13 +87,17 @@ if (!!navigator.serviceWorker) {
 } else { console.error('[CW] Installing Failed,Error: Browser not support service worker'); }
 </script>
 ```
-#### 编辑{blogroot}/_config.butterfly.yml文件
+
+#### 编辑 {blogroot}/_config.butterfly.yml文件
+
 ```
 inject:
   head:
 +    - <script src="/js/ClientWorker.js"></script>
 ```
+
 #### 编辑_config.yml文件
+
 ```
 skip_render:
 +  - config.yaml
