@@ -23,7 +23,7 @@ catch_rules:
           - https://unpkg.com
           - https://npm.sourcegcdn.com
           - https://cdn.bilicdn.tk/npm
-         action: fetch
+        action: fetch
         fetch:
           status: 200
           engine: parallel
