@@ -45,7 +45,7 @@ if theme.post_copyright.enable && page.copyright !== false
                 a(rel='noopener' target='_blank' title='CC BY 4.0' href='https://creativecommons.org/licenses/by/4.0/deed.zh') CC BY 4.0
 ```
 
-{% note warning flat %} 注意，是覆盖，不是增加！ {% endnote %}
+ 注意，是覆盖，不是增加！ 
 
 #### 修改post.styl
 
