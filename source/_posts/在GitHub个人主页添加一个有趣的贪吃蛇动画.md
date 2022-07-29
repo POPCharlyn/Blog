@@ -3,7 +3,7 @@ title: 在GitHub个人页添加一个有趣的贪吃蛇动画
 date: 2022-07-28 12:07:51
 tags: 教程
 categories: Github
-cover:  https://i.postimg.cc/59pCgh58/a1ebe329-c070-4ba4-a43a-ffb0ebf92d39.gif
+cover: https://i.postimg.cc/59pCgh58/a1ebe329-c070-4ba4-a43a-ffb0ebf92d39.gif
 ---
 
 这是我之前在逛 GitHub 发现的有意思的东西，给自己的个人 GitHub 主页添加一个贪吃蛇动画，效果如下：
@@ -25,22 +25,17 @@ cover:  https://i.postimg.cc/59pCgh58/a1ebe329-c070-4ba4-a43a-ffb0ebf92d39.gif
 
 ```
 # GitHub Action for generating a contribution graph with a snake eating your contributions.
-
 name: Generate Snake
-
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.4
-
       - name: Generate Snake
         uses: Platane/snk@master
         id: snake-gif
@@ -48,7 +43,6 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           gif_out_path: ./assets/github-contribution-grid-snake.gif
           svg_out_path: ./assets/github-contribution-grid-snake.svg
-
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v7.2.1
         with:
@@ -66,5 +60,4 @@ jobs:
 
 将xxx改为你的github用户名即可
 
-完成以上两步操作，就可以在自己的 GitHub 主页看到这个动画啦，还是很酷 的
-
+完成以上述操作，就可以在自己的 GitHub 主页看到这个动画啦，还是很酷的
