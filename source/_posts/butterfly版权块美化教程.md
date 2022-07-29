@@ -1,11 +1,14 @@
 ---
-title: butterfly版权块美化教程
-date: 2022-07-28 11:51:20
-tags: 教程
-categories: Butterfly
+categories:
+- Butterfly
+- ''
 cover: https://ik.imagekit.io/nicexl/Wallpaper/0f11ebb6edd017c2d2eca2_UCIfkba8h.jpg
+date: '2022-07-28 11:51:20'
+tags:
+- 教程
+title: butterfly版权块美化教程
+updated: '2022-07-29 10:54:13'
 ---
-
 ### 教程
 
 #### 修改post-copyright.pug
@@ -45,14 +48,15 @@ if theme.post_copyright.enable && page.copyright !== false
                 a(rel='noopener' target='_blank' title='CC BY 4.0' href='https://creativecommons.org/licenses/by/4.0/deed.zh') CC BY 4.0
 ```
 
- 注意，是覆盖，不是增加！ 
+注意，是覆盖，不是增加！
 
 #### 修改post.styl
 
-打开**ROOT\themes\butterfly\source\css_layout**文件夹，修改**post.styl**文件
+打开`ROOT\themes\butterfly\source\css_layout*文件夹`，修改`post.styl`文件
 
 修改范围：`.post-copyright`至 `.post-outdate-notice`
-**diff模式.**
+
+##### diff模式.
 
 ```
 .post-copyright
@@ -167,7 +171,7 @@ if theme.post_copyright.enable && page.copyright !== false
 
 #### 自定义css
 
-新建 **copyright.css** ，适配夜间模式和美化字体样式
+新建 `copyright.css `，适配夜间模式和美化字体样式
 
 ```
 [data-theme="dark"]
@@ -201,5 +205,4 @@ inject:
     - <link rel="stylesheet" href="/css/copyright.css">
   bottom:
 ```
-
 
