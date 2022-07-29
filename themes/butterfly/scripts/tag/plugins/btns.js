@@ -16,7 +16,7 @@ function postCell(args, content) {
     url = "href='" + url + "'"
   }
   let icon = ''
-  let img = 'https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/default.svg'
+  let img = 'https://unpkg.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/default.svg'
   if (args.length > 2) {
     if (args[2].indexOf(' fa-') > -1) {
       icon = args[2].trim()
