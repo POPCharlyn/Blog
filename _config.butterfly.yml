@@ -789,8 +789,9 @@ note:
 pjax:
   enable: true
   exclude:
-    # - xxxx
-    # - xxxx
+     - /artitalk/
+     - /about/
+     - /music/
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
