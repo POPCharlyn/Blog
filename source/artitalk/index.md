@@ -4,8 +4,6 @@ date: 2022-5-17
 type: "artitalk"
 ---
 
-
-
 <!-- 存放说说的容器 -->
 
 <div id="artitalk_main"></div>
@@ -15,4 +13,3 @@ new Artitalk({
     appKey: 'rVMF9CErbxRU7B85ezFQoEGj' // Your LeanCloud appKey
 })
 </script>
-
