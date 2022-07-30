@@ -436,11 +436,11 @@ cnzz_analytics:
 
 # Cloudflare Analytics
 # https://www.cloudflare.com/zh-tw/web-analytics/
-cloudflare_analytics:
+cloudflare_analytics: af5185b0eacb4c0a9008164846b8e2fa
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
-microsoft_clarity: cqdvy4jnl1
+microsoft_clarity: 
 # Advertisement
 # --------------------------------------
 
