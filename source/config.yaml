@@ -16,9 +16,9 @@ catch_rules:
         fetch:
           preflight: false
           engine: parallel
-   - rule: .*
-     transform_rules:
-       - search: .*
-         action: skip     #? 2.8.1新增，跳过cw规则
+    - rule: .*
+      transform_rules:
+      - search: .*
+        action: skip     #? 2.8.1新增，跳过cw规则
         
       
