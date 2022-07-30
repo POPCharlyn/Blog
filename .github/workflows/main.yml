@@ -35,9 +35,8 @@ jobs:
 
       - name: Setup Hexo
         env: 
-                # HEXO_DEPLOY_PRI_XIAOXIN_WINDOW 这个就是配置hexo仓库secrets的name，一定要对应上
+                
                 TZ: Asia/Shanghai
-                ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_PRI_XIAOXIN_WINDOW }}
                 ALGOLIA_ADMIN_API_KEY: 837e620106579ed41c094194f2dc9d06
         run: |
                     git config --global user.email "1043865083@qq.com"
