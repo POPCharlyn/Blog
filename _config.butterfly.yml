@@ -584,7 +584,7 @@ display_mode: light
 beautify:
   enable: true
   field: post # site/post
-  title-prefix-icon: '\f197'
+  title-prefix-icon: '\f863'
   title-prefix-icon-color: '#F47466'
 
 # Global font settings
@@ -871,7 +871,7 @@ inject:
      - <script defer src="/js/custom.js"></script>
      - <script src="/js/pace.min.js"></script>
      - <script defer src="/js/universe.js"></script>
-     - <script src="/js/hideMobileSidebar.js"></script>
+    # - <script src="/js/hideMobileSidebar.js"></script>
 
 
 
