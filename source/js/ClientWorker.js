@@ -9,6 +9,14 @@ if (!!navigator.serviceWorker) {
                         if (text === 'ok') {
                             console.log('[CW] Installing Success,Configuring Success,Starting...');
                             localStorage.setItem('cw_installed', 'true');
+                            //如果你不希望重载页面，请移除下面七行
+                            //重载标识 - 开始
+                            fetch(window.location.href).then(res => res.text()).then(text => {
+                                document.open()
+                                document.write(text);
+                                document.close();
+                            });
+                            //重载标识 - 结束
                         } else {
                             console.warn('[CW] Installing Success,Configuring Failed,Sleeping 200ms...');
                             setTimeout(() => {
@@ -27,4 +35,3 @@ if (!!navigator.serviceWorker) {
         console.error('[CW] Installing Failed,Error: ' + err.message);
     });
 } else { console.error('[CW] Installing Failed,Error: Browser not support service worker'); }
-
