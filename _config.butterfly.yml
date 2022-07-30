@@ -848,11 +848,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-     - <link rel="stylesheet" href="/css/heoMainColor.css">
      - <meta name="msvalidate.01" content="45638703FCDBAEC549D1FA7EBFAB12BC" />
-     - <link rel="stylesheet" href="/css/rightmenu.css">
-     - <link rel="stylesheet" href="/css/scroll.css">
-     - <link rel="stylesheet" href="/css/pace-theme-flash.css">
      - <link rel="https://npm.elemecdn.com/aplayer@1/dist/APlayer.min.css">
      - <canvas id="universe"></canvas>
      - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
