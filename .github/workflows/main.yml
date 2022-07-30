@@ -40,11 +40,6 @@ jobs:
                 ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_PRI_XIAOXIN_WINDOW }}
                 ALGOLIA_ADMIN_API_KEY: 837e620106579ed41c094194f2dc9d06
         run: |
-                    mkdir -p ~/.ssh/
-                    echo "$ACTION_DEPLOY_KEY"> ~/.ssh/id_rsa
-                    chmod 700 ~/.ssh
-                    chmod 600 ~/.ssh/id_rsa
-                    ssh-keyscan github.com >> ~/.ssh/known_hosts
                     git config --global user.email "1043865083@qq.com"
                     git config --global user.name "xlenco"
                     npm install hexo-cli -g
