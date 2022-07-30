@@ -46,7 +46,7 @@ jobs:
                     chmod 600 ~/.ssh/id_rsa
                     ssh-keyscan github.com >> ~/.ssh/known_hosts
                     git config --global user.email "1043865083@qq.com"
-                    git config --global user.name "xlenco"
+                    git config --global user.name "xilej"
                     npm install hexo-cli -g
                     npm install
       - name: Deploy
@@ -54,4 +54,3 @@ jobs:
             hexo clean
             hexo deploy
             hexo algolia
-            
