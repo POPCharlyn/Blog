@@ -182,9 +182,9 @@ artitalk:
     color1: '#49b1f5'
     color2: '#00c4b6'
     atEmoji: {
-      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
-      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
-      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji'}
+      'https://unpkg.com/@waline/emojis@1.0.1/alus',
+      'https://unpkg.com/@waline/emojis@1.0.1/qq',
+      'https://unpkg.com/@waline/emojis@1.0.1/tw-emoji'}
 aplayer:
   meting: true
   asset_inject: false
@@ -261,16 +261,6 @@ swiper:
   custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
   custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
 
-# tag-plugins-plus
-# see https://akilar.top/posts/615e2dec/
-tag_plugins:
-  enable: true # 开关
-  priority: 5 #过滤器优先权
-  issues: false #issues标签依赖注入开关
-  CDN:
-    anima: https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css #动画标签anima的依赖
-    issues: https://cdn.jsdelivr.net/npm/hexo-theme-volantis@latest/source/js/issues.min.js #issues标签依赖
-    carousel: https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js
 
 
 
