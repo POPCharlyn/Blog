@@ -4,9 +4,7 @@ date: 2022-5-17
 type: "artitalk"
 ---
 
-<!-- 存放说说的容器 -->
 
-<div id="artitalk_main"></div>
 <script>
 new Artitalk({
     appId: 'CVLwrCkInSwVzAk7dg8PKGrD-MdYXbMMI', // Your LeanCloud appId
