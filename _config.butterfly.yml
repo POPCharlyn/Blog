@@ -855,7 +855,7 @@ inject:
     # - <link rel="stylesheet" href="/css/xxx.css">
     
   bottom:
-     - <script defer https://npm.elemecdn.com/vue@2.6.11"></script>
+     - <script defer src="https://npm.elemecdn.com/vue@2.6.11"></script>
      - <script defer src="/js/rightmenu.js"></script>
      - <script defer src="/js/custom.js"></script>
      - <script defer src="/js/pace.min.js"></script>
@@ -865,7 +865,7 @@ inject:
      - <script async src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.0/js/mdui.min.js"></script>
      - <script src="https://npm.elemecdn.com/leancloud-storage@4.10.0/dist/av-min.js"></script>
      - <script defer src="/js/ClientWorker.js"></script>
-     - <script defer data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js"></script>
+     - <script defer src="https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js"></script>
      - <script defer src="https://npm.elemecdn.com/artitalk"></script>
      - <script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-artitalk-pro/lib/card_visual.js"></script>
      - <script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script>
