@@ -789,7 +789,6 @@ note:
 pjax:
   enable: true
   exclude:
-     - /artitalk/
      - /about/
      - /music/
 
