@@ -54,3 +54,4 @@ jobs:
             hexo clean
             hexo deploy
             hexo algolia
+            
