@@ -136,7 +136,6 @@ githubcalendar:
   color: "['#ebedf0', '#a2f7af', '#6ce480', '#54ad63', '#469252', '#31753c', '#1f5f2a', '#13531f', '#084111', '#032b09', '#000000']"
   api: https://calendar-api-mu.vercel.app/api
   # api: https://python-gitee-calendar-api.vercel.app/api
-  calendar_js: https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js
   plus_style: ""
 # hexo-electric-clock
 electric_clock:
@@ -172,9 +171,7 @@ artitalk:
   exclude:
     - /artitalk/
     - /posts/ #需要abbrlink插件支持
-  js: https://npm.elemecdn.com/artitalk
-  card_css: https://npm.elemecdn.com/hexo-butterfly-artitalk-pro/lib/card.css
-  card_visual_js: https://npm.elemecdn.com/hexo-butterfly-artitalk-pro/lib/card_visual.js
+
   option:
     serverURL: https://cvlwrcki.api.lncldglobal.com #将此处的********替换为你的appId前八位
     lang: zh
@@ -242,7 +239,7 @@ categoryBar:
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover5.webp
     - descr: 
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover6.webp
-  custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
+ # custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
 
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
@@ -256,10 +253,7 @@ swiper:
     name: recent-posts
     index: 0
   default_descr: 再怎么看我也不知道怎么描述它的啦！
-  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
-  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
-  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
-  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
+
 
 
 
