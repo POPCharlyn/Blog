@@ -9,7 +9,6 @@ catch_rules:
           - https://fastly.jsdelivr.net/npm
           - https://unpkg.zhimg.com 
           - https://npm.elemecdn.com 
-          - https://code.bdstatic.com/npm 
           - https://npm.sourcegcdn.com 
           - https://cdn.bilicdn.tk/npm 
         action: fetch
